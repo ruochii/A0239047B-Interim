@@ -55,13 +55,34 @@
         <sl-tree-item expanded>
           <a href="#section-header-2">2. Literature Review</a>
           <sl-tree-item>
-            <a href="#2.1stiffness">2.1. Stiffness</a>
+            <a href="#2.1.CurrentModels">2.1. Current PDTE Models</a>
+            <sl-tree-item>
+                <a href="#2.1.1.GelatinSponge">2.1.1. Gelatin Sponge-based Cultures</a>
+            </sl-tree-item>
+            <sl-tree-item>
+                <a href="#2.1.2.Matrigel">2.1.2. Matrigel</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#2.1.3.HA">2.1.3. Hyaluronan(HA)-based Hydrogel</a>
+            </sl-tree-item>
           </sl-tree-item>
           <sl-tree-item>
-            <a href="#2.2Porosity">2.2. Porosity</a>
+            <a href="#2.2.Effects">2.2. Effects of Matrix Properties on PDTE</a>
+            <sl-tree-item>
+              <a href="#2.2.1.Stiffness">2.2.1. Stiffness</a>
+            </sl-tree-item>  
+            <sl-tree-item>
+              <a href="#2.2.2.Porosity">2.2.2. Porosity</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#2.2.3.Degradation">2.2.3. Degradation</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#2.2.Crosslinking">2.2.4. Crosslinking Density</a>
+            </sl-tree-item>
           </sl-tree-item>
-
         </sl-tree-item>
+
         <sl-tree-item expanded>
           <a href="#section-header-3">3. Aims</a>
           <sl-tree-item>
@@ -82,6 +103,67 @@
       <!-- This is an example of what a section might look like -->
       <div id="section-header-2">
         <h2> 2. Literature Review </h2>
+      </div>
+
+      <div id="2.1.CurrentModels">
+        <h3>2.1. Current PDTE Models</h3>
+        <p>
+          Tumor models must maintain tissue structure and stromal cell distribution for 
+          effective evaluation of stromal-targeting therapies [5]. PDTE preserves native 
+          architecture, cell-cell and cell-ECM interactions, and immune composition, making them 
+          essential for rapid drug testing in ex vivo studies [12].
+        </p>
+        <p>
+          Several culturing methods have been explored to enhance the viability of tumor explants. 
+        </p> 
+      </div>
+      <div id="2.1.1.GelatinSponge">
+        <h4>2.1.1. Gelatin Sponge-based Cultures</h4>
+        
+          <image-component tag="image" source="assets/gelatinsponge.png"
+          subtitle="Figure 2: Gelatin sponge-based culture [5]. "></image-component>
+        <p>
+          PDE models using gelatin sponges are promising in preclinical drug testing and 
+          studying tumor-microenvironment interactions. Yet, these models often experience 
+          rapid tissue degradation and reduced viability within six days. This challenge was 
+          partially addressed by advanced slicing technologies like vibratomes and 
+          compresstomes, which ensure uniform sample thickness [5].
+        </p>
+      </div>
+      <div id="2.1.2.Matrigel">
+        <h4>2.1.2. Matrigel </h4>
+        
+          <image-component tag="image" source="assets/matrigel.png"
+          subtitle="Figure 3: Matrigel [5]. "></image-component>
+        <p>
+          Matrigel, an extract of a mouse Engelbreth-Holm-Swarm (EHS) tumor, has facilitated the 
+          structural and functional characterization of its components by providing large amounts of 
+          ECM. It has been used for a variety of studies with embryonic, normal, and stem or malignant 
+          cells [16]. However, it only supports a short-term culture of 3 days, and the viability of PDE 
+          rapidly decreased afterwards [17].
+        </p>
+      </div>
+      <div id="2.1.3.HA">
+        <h4>2.1.3. Hyaluronan (HA)-based Scaffold</h4>
+        
+          <image-component tag="image" source="assets/hagel.png"
+          subtitle="Figure 4: HA-based hydrogel culture. "></image-component>
+        <p>
+          The Patient-derived hydrogel-assisted eXplants (PhaseX) hydrogel from the Translational Tumor 
+          Engineering (TTE) lab provides enhanced support for PDE compared to traditional 
+          PTFE membranes and Matrigel, using bioengineered hyaluronan (HA)-based hydrogels. HA’s 
+          similarity to extracellular matrix (ECM) makes it a promising scaffold for tissue culture 
+          [18]. PhaseX’s modifiable properties, such as stiffness, degradability, and adhesivity, 
+          preserve tissue integrity, cellular diversity, and the viability of cancer-associated 
+          fibroblasts (CAFs) and immune cells. However, adjustments for PDE from metastatic tumors 
+          may require lower matrix adhesivity to prevent excessive cell invasion, and highly 
+          vascularized tumors demand increased porosity for better nutrient and oxygen diffusion. 
+          Although effective, PhaseX’s HA hydrogel system cannot independently modulate HA 
+          concentration and stiffness, limiting its flexibility for varied applications. 
+        </p>
+        <sl-divider></sl-divider>
+      <div id="2.2.Effects">
+        <h3>2.2. Effects of Matrix Properties on PDTE</h3>
         <p>
           To establish an effective hydrogel-based model, it is crucial to understand 
           how specific matrix properties interact with PDTE and influence their structural and 
@@ -95,260 +177,134 @@
           precision oncology applications. 
         </p>
         <image-component tag="image" source="assets/biophy.png"
-          subtitle="Figure 2: Biophysical properties and features of an engineered microenvironment [13]. "></image-component>
-      </div>
+          subtitle="Figure 5: Biophysical properties and features of an engineered microenvironment [13]. "></image-component>
 
-      <div id="2.1stiffness">
-        <h3>2.1. Stiffness</h3>
+      <div id="2.2.1.Stiffness">
+        <h4>2.2.1. Stiffness</h4>
         <p>
-          Matrix stiffness, a measure of the rigidity or flexibility of the extracellular 
-          environment, has been shown to affect tumor cell behavior in hydrogel-based cultures. 
-          Stiffer matrices generally increase cellular proliferation and differentiation, where 
-          cells sense and respond to mechanical cues in their environment [14 ] [1 5]. For 
-          instance, hepatocellular carcinoma (HCC) cells display a compact, rounded shape on 
-          softer matrices, whereas on stiffer matrices, they transition to a flattened and 
-          extensively spread morphology [16 ]. Cell morphology is also directly correlated to 
-          cell proliferation as cell spreading is crucial for efficient nutrient absorption, 
-          contributing to increased cell proliferation [16]. Additionally, when breast cancer 
-          cells were cultured on agarose hydrogels of different stiffness to investigate the 
-          effect of hydrogel stiffness on the chemoresistance of breast cancer cells to 
-          doxorubicin (DOX), breast cancer cells showed higher viability in high-stiffness 
-          hydrogels than they did in low-stiffness hydrogels when the DOX concentration was the 
-          same [17 ]. Breast cancer tissue is over 4kPa, higher stiffness than that of normal 
-          healthy breast tissue (0.2kPa) [18 ]. A stiffer hydrogel model may better mimic the 
-          tumor environment. Even though these examples are based on cell cultures, the findings 
-          can be extrapolated to investigate if cancer-type matched stiffness in material 
-          properties would similarly enhance the viability of PDE cultures [5]. Furthermore, a 
-          tunable hydrogel, PhaseX, when used to study the ex vivo preservation of head and neck 
-          squamous cell carcinoma (HNSCC) explants, showed that hydrogel with tuned stiffness of 
-          380 Pa, better preserved the tissue area and most number of live cells for up to 9 days 
-          of culture [18]. Therefore, the stiffness of hydrogel models should be adjusted to 
-          better mimic the mechanical environment that a developing tumor is exposed to and 
-          could, therefore, represent a more relevant physiological model of aggressiveness and 
-          improve predictability of viability in vivo. 
+          Matrix stiffness, the extracellular environment’s rigidity, affects cell behavior, 
+          stability and scaffold integrity [14 ]. Generally, stiffer matrices promote greater cell 
+          spreading, proliferation, and differentiation, as cells detect and respond to mechanical 
+          signals in their surroundings[15 ][1 6]. For example, hepatocellular carcinoma (HCC) 
+          cells exhibit a rounded shape on softer matrices but spread extensively on stiffer ones 
+          [1 7]. Such spreading enhances nutrient absorption, which supports cell proliferation 
+          [17]. Studies on breast cancer cells cultured on agarose hydrogels of varying stiffness 
+          revealed that cells in stiffer hydrogels had higher viability under doxorubicin (DOX) 
+          treatment, suggesting that stiffer hydrogels may better mimic the increased stiffness 
+          of tumor tissue, thus improving chemoresistance study outcomes[18 ][19 ]. With breast 
+          cancer tissue stiffness typically over 4 kPa, stiffer hydrogel models may better 
+          simulate the tumor microenvironment and increase predictive accuracy for in vivo 
+          behavior [5].
         </p>
         <p>
-          It is also interesting to note that invading cancer cells escaping from a cancer 
-          cell spheroid can exert force on the peripheral collagen matrix and induce 
-          strain-stiffening, which refers to the increased matrix stiffness caused by an 
-          applied strain [19]. As such, while hydrogel stiffness impacts the cell behavior, 
-          cell migration can also affect the stiffness of hydrogel models. 
+          PhaseX, a tunable HA-based hydrogel, demonstrated the impact of stiffness in ex vivo 
+          models. By adjusting HA to achieve 380 Pa stiffness, PhaseX maintained head and neck 
+          squamous cell carcinoma (HNSCC) explants for up to 9 days, preserving both tissue area 
+          and live cell count [18]. The hydrogel stiffness can also be adjusted by crosslinking 
+          HA with methacrylate anhydride to form methacrylated hyaluronic acid (MeHA/HAMA). 
+          Lu et al. showed that by adjusting the concentration of MA and the crosslinking and 
+          the ultraviolet light exposure, HAMA of different stiffness can be formed. Different 
+          stiffness of HAMA also resulted in different viability [lu]. Tailoring hydrogel 
+          stiffness to approximate the native tumor environment may have more physiologically 
+          relevant models, potentially increasing the predictability of ex vivo results for in 
+          vivo outcomes. 
+        </p>
+
+        <image-component tag="image" source="assets/hama.png"
+          subtitle="Figure 6: Different stiffness of HAMA fabricated and the resultant cell viability during the culture period[]. "></image-component>
+
+        <p>
+          Interestingly, cancer cells migrating from spheroids can stiffen surrounding 
+          collagen matrices through strain-induced stiffening, showing that cell migration and 
+          hydrogel stiffness mutually influence one another in tumor modeling [20]. This 
+          bidirectional relationship highlights the importance of optimizing hydrogel stiffness 
+          to mimic real tumor conditions effectively.
         </p>
       </div>
-        <div id="2.2Porosity">
-          <h3>2.2. Porosity</h3>
-          <p>
-            Even though higher stiffness tends to improve the viability of solid tumors, cells were 
-            observed to migrate from the dense collagen matrix to the loose collagen matrix, indicating 
-            that the cells showed a tendency toward a more compliant 3D matrix of collagen [19]. 
-            However, rather than stiffness, Sapudom et al. suggested that cells migrate from small 
-            pores to large pores, therefore the directional cell migration is due to the porosity of 
-            the matrix [20]. Similarly, Seo et al. suggested that the microarchitecture (e.g., pore 
-            size and fiber diameter) of the collagen matrix guides myofibroblast differentiation, and 
-            the effect is independent of the stiffness of the bulk collagen matrix [19] [21]. Lu et 
-            al. also proved that while human umbilical vein endothelial cells (HUVEC cells) were 
-            trapped and concentrated on the surface of non-macroporous methacrylated hyaluronic acid 
-            hydrogel (HAMA), the distance of cell migration was much significant in macroporous HAMA [22]. 
-          </p>
-          <p>
-            Pore structure was also proven to be essential for vascularization. The vessel densities in 
-            porous HAMA were much abundant compared to non-macroporous HAMA. Furthermore, 
-            macropores also promoted cell proliferation compared to non-macroprous HAMA, where cell 
-            proliferation was restricted after a long-term culture. 
-          </p>
-          <p>
-            Additionally, HAMA with pore size of diameter ranging 200 to 250µm was proven to be 
-            the most effective for cell viability, migration and vascularization compared to HAMA 
-            with pore sizes of 120 to 150µm, and 300 to 350µm. Since HUVEC cells diameter is about 
-            17µm, and the average size of tumor cells is 10 to 20µm, pore size range of 200 to 250 
-            µm can serve as a guideline for our hydrogel model [23]. 
-          </p>
-        </div>
-
-        <br />
-        <sl-divider></sl-divider>
-        <div>
-        <div id="section-header-2">
-          <h2>2. Literature Review</h2>
-  
-  
-        <div id="sub-section-1-header-1">
-          <h3>1.1 Sub-section Header 1</h3>
-          <p>
-            Ultrices dui sapien eget mi. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Dolor purus non enim
-            praesent elementum facilisis. Lacus vestibulum sed arcu non odio euismod lacinia at. Metus aliquam eleifend mi
-            in nulla. Lacus sed viverra tellus in hac habitasse platea. Varius quam quisque id diam vel quam elementum
-            pulvinar. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Diam ut venenatis tellus in metus
-            vulputate. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Venenatis lectus magna
-            fringilla
-            urna. In nisl nisi scelerisque eu ultrices. Velit egestas dui id ornare arcu odio ut sem nulla. Quam id leo in
-            vitae. Egestas congue quisque egestas diam in arcu cursus euismod quis. Porttitor leo a diam sollicitudin
-            tempor
-            id eu nisl.
-          </p>
-        </div>
-  
-        <div id="sub-section-1-header-2">
-          <h3>1.2 Sub-section Header 2</h3>
-          <p>
-            Fermentum dui faucibus in ornare quam viverra orci. Donec ultrices tincidunt arcu non sodales. A diam maecenas
-            sed enim ut sem viverra. Semper viverra nam libero justo laoreet sit. Mi sit amet mauris commodo quis. Auctor
-            augue mauris augue neque gravida in fermentum et. Auctor elit sed vulputate mi sit amet. Maecenas pharetra
-            convallis posuere morbi leo urna. Sem nulla pharetra diam sit amet nisl. Id nibh tortor id aliquet lectus.
-            Nibh
-            nisl condimentum id venenatis a condimentum vitae sapien. Convallis posuere morbi leo urna molestie at
-            elementum.
-          </p>
-  
-          <!-- This is an example of how you might use the image component -->
-          <image-component tag="image" source="assets/requirement.png"
-            subtitle="Image 1: iDP suggested pathway"></image-component>
-        </div>
+      <div id="2.2.2.Porosity">
+        <h4>2.2.2. Porosity</h4>
+        <p>
+          Even though higher stiffness tends to improve the viability of solid tumors, 
+          cells were observed to migrate from the dense collagen matrix to the loose collagen 
+          matrix, indicating that the cells showed a tendency toward a more compliant 3D matrix 
+          of collagen [19]. However, Sapudom et al. suggest that cell migration may be influenced 
+          by matrix porosity instead of stiffness, with cells migrating from small to larger 
+          pores [21 ]. Most bulk hydrogels have dense polymer networks with nano-sized pores, 
+          which are typically insufficient for nutrient diffusion, cell migration, and 
+          proliferation [22 ]. The microarchitecture, consists of pore size and fiber diameter, 
+          is shown to guide cellular behaviors such as myofibroblast differentiation 
+          independently of matrix stiffness [20][23].
+        </p>
+        <p>
+          Micropores can be formed by fabricating microspheres with gelatin. Gelatin is used as 
+          it is highly water soluble. It is a good porogen as pores can be formed fast and 
+          facilitate cell migration and proliferation. Lu et al. fabricated porous HAMA using 
+          gelatin microspheres (GMS) template method. It was found that human umbilical vein 
+          endothelial cells (HUVECs) migrated more significantly in macroporous HAMA than in 
+          non-macroporous ones, which restricted cell movement and concentrated cells on the 
+          hydrogel surface [23].
+        </p>
+        <p>
+          Pore structure is also crucial for vascularization. Porous HAMA supports greater vessel density 
+          and cell proliferation than its non-macroporous counterpart, with a pore diameter range of 
+          200 to 250 µm being optimal for cell viability, migration, and vascularization compared 
+          to smaller or larger pores. This range is suitable for tumor cells which has an average 
+          diameter of 10 to 20 µm. This pore diameter can act as a guideline for designing hydrogel 
+          models [24]. 
+        </p>
       </div>
-  
-  
-      <br />
-      <br />
-      <sl-divider></sl-divider>
-      <div>
-        <div id="section-header-2">
-          <h2>2. Section Header 2</h2>
-          <p>
-            Ornare arcu dui vivamus arcu felis bibendum ut tristique et. Mi proin sed libero enim sed faucibus turpis in
-            eu. Odio ut sem nulla pharetra diam sit. Nibh cras pulvinar mattis nunc sed blandit libero. Lacus sed viverra
-            tellus in hac habitasse platea dictumst vestibulum. At augue eget arcu dictum varius duis. Mauris ultrices
-            eros in cursus turpis massa (Lindberg, 1967). Libero nunc consequat interdum varius sit amet mattis. Ut ornare
-            lectus sit amet est placerat in egestas erat. Elementum curabitur vitae nunc sed. Proin nibh nisl condimentum
-            id venenatis a condimentum vitae sapien (Chamberlin et al., 2008). Vitae tempus quam pellentesque nec nam
-            aliquam sem.
-          </p>
-        </div>
-  
-        <div id="sub-section-2-header-1">
-          <h3>2.1. Sub-section Header 1</h3>
-          <p>
-            Pellentesque nec nam aliquam sem et tortor consequat. Et netus et malesuada fames ac turpis egestas maecenas.
-            Eu tincidunt tortor aliquam nulla facilisi. Nunc aliquet bibendum enim facilisis gravida. Elementum pulvinar
-            etiam non quam lacus (Moll et al., 2011; Parker & Fox, 2010). Blandit cursus risus at ultrices mi. Arcu dui
-            vivamus arcu felis bibendum ut tristique. Porttitor rhoncus dolor purus non enim praesent elementum facilisis.
-            Mauris in aliquam sem fringilla. Non quam lacus suspendisse faucibus. Tristique senectus et netus et malesuada
-            fames ac. <a href="#image">Link to the image above</a>
-          </p>
-  
-          <!-- This is an example of how you might use the video component -->
-          <video-component tag="rick" source="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            subtitle="Video: Never gonna give you up?"></video-component>
-        </div>
-  
-        <div id="sub-section-2-header-2">
-          <h3>2.2. Sub-section Header 2</h3>
-          <p>
-            Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Dignissim convallis aenean et tortor at
-            risus viverra adipiscing. Facilisi nullam vehicula ipsum a arcu cursus. Adipiscing elit pellentesque
-            habitant
-            morbi tristique senectus et netus. Turpis massa tincidunt dui ut ornare lectus. Suspendisse sed nisi lacus
-            sed. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Ut ornare lectus sit amet est
-            placerat in egestas. Magna fringilla urna porttitor rhoncus. Imperdiet dui accumsan sit amet.
-          </p>
-  
-          <!-- This is an example of how you might use the table component -->
-          <table-component subtitle="Table: Demo table">
-            <div id="table-1"></div>
-          </table-component>
-        </div>
+      <div id="#2.2.3.Degradation">
+        <h3>2.2.3. Degradation</h3>
+        <p>
+          Hydrogel scaffold degradability is essential for providing temporary support that adapts 
+          as new tissue forms. Scaffold degradation can occur through enzymatic hydrolysis, ester 
+          hydrolysis, or photolytic cleavage of polymer chains, allowing the structure to break 
+          down gradually [25 ]. Precise control of degradation is vital to ensure the scaffold 
+          lasts long enough to support cells until the newly formed tissue can sustain itself. 
+          This degradation mimics dynamic physical cues of the extracellular matrix (ECM), 
+          influencing cell behavior critical for processes like spreading, migration, 
+          proliferation, and differentiation [26].
+        </p>
+        <p>
+          A common approach to tune hydrogel degradation is to incorporate matrix 
+          metalloproteinase (MMP)-sensitive crosslinkers. For example, methacrylated 
+          hyaluronic acid (MeHA) hydrogels with MMP-sensitive links allow human mesenchymal 
+          stem cells (hMSCs) to reshape their environment by secreting enzymes to degrade the 
+          matrix, which enhances cell spreading and differentiation. Studies show that hMSCs 
+          in MMP-sensitive hydrogels express higher chondrogenic markers and reduced 
+          hypertrophic markers, promoting cartilage formation while limiting calcification 
+          [27 ]. Similarly, HA hydrogels conjugated with MMP-sensitive peptides better 
+          preserved live cells and tissue morphology in patient-derived tumor slices (PDTS) 
+          than non-degradable gels, highlighting the importance of MMP-degradability in maintaining 
+          PDTS viability [18].
+        </p>
+        <p>
+          Thus, designing degradable hydrogels with controlled, 
+          cell-responsive degradation supports tissue development by providing 
+          crucial structural and biochemical cues.
+        </p>
       </div>
-  
-      <!-- This is an example of how you can use the references component to create references -->
-      <div id="references" class="references">
-        <sl-divider></sl-divider>
-        <h2>References</h2>
-        <ul>
-          <li>
-            [1] Lyon and  Geneva, “Global cancer burden growing, amidst mounting need for services,” 
-            World Health Organization, 
-            <a href = "https://www.who.int/news/item/01-02-2024-global-cancer-burden-growing--amidst-mounting-need-for-services">https://www.who.int/news/item/01-02-2024-global-cancer-burden-growing--amidst-mounting-need-for-services</a>
-            (accessed Oct. 31, 2024).
-          </li>
-          <li>
-            [2] “Side effects of radiation therapy: Radiation effects on body,” Side Effects of 
-            Radiation Therapy | Radiation Effects on Body | American Cancer Society, 
-           <a href = "https://www.cancer.org/cancer/managing-cancer/treatment-types/radiation/effects-on-different-parts-of-body.html#:~:text=The%20most%20common%20early%20side,or%20even%20years%20to%20develop">https://www.cancer.org/cancer/managing-cancer/treatment-types/radiation/effects-on-different-parts-of-body.html#:~:text=The%20most%20common%20early%20side,or%20even%20years%20to%20develop</a> 
-            (accessed Oct. 27, 2024). 
-          </li>
-          <li>
-            [3] K. Zhu et al., “Her2-targeted therapies in cancer: A systematic review - 
-            biomarker research,” BioMed Central, 
-            <a href = "https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-024-00565-1">https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-024-00565-1</a> 
-            (accessed Nov. 2, 2024). 
-          </li>
-          <li>
-            [4] K. K. W. To, W. Fong, and W. C. S. Cho, “Immunotherapy in treating EGFR-mutant 
-            lung cancer: Current challenges and new strategies,” Frontiers in oncology, 
-             <a href = https://pmc.ncbi.nlm.nih.gov/articles/PMC8185359/#:~:text=Combination%20of%20PD%2D1/PD%2DL1%20ICIs%20With%20Other%20Immunotherapies&text=Combination%20of%20CTLA%2D4%20and,%2DL1%20expression%20(138).></a>
-            (accessed Nov. 2, 2024). 
-          </li>
-          <li>
-            [5] K. Z. Wu, “Making in vitro tumor models whole again,” Advanced Healthcare Materials,
-            <a href = "https://onlinelibrary.wiley.com/doi/full/10.1002/adhm.202202279">https://onlinelibrary.wiley.com/doi/full/10.1002/adhm.202202279</a> 
-            (accessed Apr. 17, 2024)
-          </li>
-          <li>
-            [6] A.-D. Lazar, S. Dinescu, and M. Costache, “Tumor microenvironment complexity: 
-            A pathological milieu that innately modulates cancer progression,” SpringerLink (accessed Oct. 27, 2024). 
-            <a href = "https://link.springer.com/referenceworkentry/10.1007/978-3-030-80962-1_89-1">https://link.springer.com/referenceworkentry/10.1007/978-3-030-80962-1_89-1</a>
-          </li>
-          <li>
-            [7] H. L. Kenerson, K. M. Sullivan, K. P. Labadie, V. G. Pillarisetty, and R. S. Yeung , 
-            “Protocol for tissue slice cultures from human solid tumors to study therapeutic response
-            ,” STAR Protocols, <a href = "https://www.sciencedirect.com/science/article/pii/S2666166721002811">https://www.sciencedirect.com/science/article/pii/S2666166721002811</a>
-            (accessed Oct. 27, 2024). 
-          </li>
-          <li>
-            [8] E. Jun et al., “The identification of candidate effective combination regimens for 
-          pancreatic cancer using the histoculture drug response assay,” Nature News, 
-          <a href = "https://www.nature.com/articles/s41598-020-68703-x#:~:text=The%20histoculture%20drug%20response%20assay%20(HDRA)%20is%20based%20on%20three,on%20inhibition%20of%20tumour%20viability">https://www.nature.com/articles/s41598-020-68703-x#:~:text=The%20histoculture%20drug%20response%20assay%20(HDRA)%20is%20based%20on%20three,on%20inhibition%20of%20tumour%20viability</a> 
-          (accessed Oct. 27, 2024). 
-        </li>
-        <li>
-          [9] R. A.  Vescio, K. M. Connors, T. Kubota, and R. M. Hoffman, 
-          “Correlation of histology and drug response of human tumors grown in 
-          native-state three-dimensional histoculture and in nude mice.,” PNAS, 
-          <a href = "https://www.pnas.org/doi/10.1073/pnas.2409983121">https://www.pnas.org/doi/10.1073/pnas.2409983121</a> (accessed Oct. 27, 2024).
-        </li>
-        <li>
-          [10] A. Yin, J. G. C. van Hasselt, H.-J. Guchelaar, L. E. Friberg, and D. J. A. R. 
-          Moes, “Anti-cancer treatment schedule optimization based on tumor dynamics modelling 
-          incorporating evolving resistance,” Nature News, 
-          <a href = "https://www.nature.com/articles/s41598-022-08012-7">https://www.nature.com/articles/s41598-022-08012-7</a> (accessed Oct. 27, 2024). 
-        </li>
-        <li>
-          [11] “Treatment cycles and courses of treatment,” Treatment for cancer | 
-          Cancer Research UK, 
-          <a href = "https://www.cancerresearchuk.org/about-cancer/treatment/cancer-drugs/how-you-have/treatment-cycles-and-courses">https://www.cancerresearchuk.org/about-cancer/treatment/cancer-drugs/how-you-have/treatment-cycles-and-courses</a> 
-          (accessed Nov. 3, 2024). 
-        </li>
-        <li>
-          [12] J. Koury et al., “Immunotherapies: Exploiting the immune system for cancer treatment,” 
-          Journal of immunology research, <a href = "https://pmc.ncbi.nlm.nih.gov/articles/PMC5872614/">https://pmc.ncbi.nlm.nih.gov/articles/PMC5872614/</a> 
-          (accessed Nov. 3, 2024). 
-        </li>
-        <li>
-          [13] R.-Z. Tang and X.-Q. Liu, “Biophysical cues of in vitro biomaterials-based artificial 
-          extracellular matrix guide cancer cell plasticity,” Materials Today Bio, 
-          <a href = "https://www.sciencedirect.com/science/article/pii/S2590006423000674#sec2">https://www.sciencedirect.com/science/article/pii/S2590006423000674#sec2</a> 
-          (accessed Oct. 27, 2024). 
-        </li>
-
-        </ul>
+      <div id="#2.2.4.Crosslinking">
+        <h4>2.2.4. Crosslinking Density</h4>
+        <p>
+          Crosslinking density affects stiffness, porosity, and degradability in hydrogels. 
+          Higher density increases stiffness and stability but reduces porosity, limiting 
+          nutrient diffusion and cell migration. This dense network also slows degradation 
+          [26]. Adjusting crosslinking balances these factors, enabling hydrogels to mimic 
+          tissue properties effectively, especially for accurate tumor modeling.
+        </p>
       </div>
+  <!-- This is the code to display the scroll to top button for ergonomic -->
+  <!-- You can leave it as it is, or if you don't like its aesthetics you can also just delete it, -->
+  <!-- but it might reduce the user experience. -->
+  <sl-button class="scroll-to-top" variant="primary" size="medium" circle onclick="scrollToTop()">
+    <sl-icon name="arrow-up" label="Settings"></sl-icon>
+  </sl-button>
+  <sl-button href="3. hypotheses.html">Next</sl-button>
+  <sl-button href="index.html">Back</sl-button>
 
-    </div>
-    <sl-button href="1.intro.html">Back</sl-button>
-    <sl-button href="2. litreview.html">Next</sl-button>
-    <sl-button class="scroll-to-top" variant="primary" size="medium" circle onclick="scrollToTop()">
-      <sl-icon name="arrow-up" label="Settings"></sl-icon>
-    </sl-button>
-
+  <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+  <script type="module" src="./components/table-component/table-component.js"></script>
 </body>
 
 </html>
