@@ -49,7 +49,7 @@
       <h2>Table of Contents</h2>
       <sl-tree>
         <sl-tree-item expanded>
-          <a href="1.intro.html">1. Introduction</a>
+          <a href="index.html">1. Introduction</a>
         </sl-tree-item>
 
         <sl-tree-item expanded>
@@ -57,7 +57,7 @@
           <sl-tree-item>
             <a href="#2.1.CurrentModels">2.1. Current PDTE Models</a>
             <sl-tree-item>
-                <a href="#2.1.1.GelatinSponge">2.1.1. Gelatin Sponge-based Cultures</a>
+                <a href="#2.1.1.GelatinSponge">2.1.1. Gelatin Sponge-based Culture</a>
             </sl-tree-item>
             <sl-tree-item>
                 <a href="#2.1.2.Matrigel">2.1.2. Matrigel</a>
@@ -69,28 +69,54 @@
           <sl-tree-item>
             <a href="#2.2.Effects">2.2. Effects of Matrix Properties on PDTE</a>
             <sl-tree-item>
-              <a href="#2.2.1.Stiffness">2.2.1. Stiffness</a>
+              <a href="#2.2.1.Stiffness">2.2.1. Stiffness and Cancer Cell Viability </a>
             </sl-tree-item>  
             <sl-tree-item>
-              <a href="#2.2.2.Porosity">2.2.2. Porosity</a>
+              <a href="#2.2.2.Porosity">2.2.2. Porosity and Nutrient Diffusion</a>
             </sl-tree-item>
             <sl-tree-item>
-              <a href="#2.2.3.Degradation">2.2.3. Degradation</a>
-            </sl-tree-item>
-            <sl-tree-item>
-              <a href="#2.2.Crosslinking">2.2.4. Crosslinking Density</a>
+              <a href="#2.2.3.Degradation">2.2.3. Degradability and Scaffold Adaptability</a>
             </sl-tree-item>
           </sl-tree-item>
         </sl-tree-item>
 
         <sl-tree-item expanded>
-          <a href="#section-header-3">3. Aims</a>
+          <a href="3.Hypotheses and Objectives.html#3.Rationale">3. Rationale</a>
           <sl-tree-item>
-            <a href="#sub-section-3-header-1">3.1. Hypotheses</a>
+            <a href="3.Hypotheses and Objectives.html#3.1.Hypotheses">3.1. Hypotheses</a>
           </sl-tree-item>
           <sl-tree-item>
-            <a href="#sub-section-3-header-2">3.2. Objectives</a>
+            <a href="3.Hypotheses and Objectives.html#3.2.Objectives">3.2. Objectives and Experimental Strategies</a>
           </sl-tree-item>
+          <sl-tree-item>
+            <a href="3.Hypotheses and Objectives.html#3.3.Significance">3.3 Significance of the Study</a>
+          </sl-tree-item>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="4.Prelimstudies.html#4.Preliminarystudies">4. Preliminary Studies</a>
+          <sl-tree-item>
+            <a href="4.Prelimstudies.html#4.1.MeHA">4.1. Fabrication of MeHA</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="4.Prelimstudies.html#4.2.gms">4.2. Fabrication of GMS</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="4.Prelimstudies.html#4.3.template">4.3 Fabrication of GMS Templates</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="4.Prelimstudies.html#4.4.porous">4.4 Fabrication of porous MeHA gels</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="4.Prelimstudies.html#4.5.stiffnesscontrol">4.5 Stiffness Control</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="4.Prelimstudies.html#4.6.pore">4.6 Pore Structure Generation</a>
+          </sl-tree-item>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="5.Conclusion.html#5.Conclusion">5. Conclusion</a>
         </sl-tree-item>
 
         <sl-tree-item>
@@ -110,12 +136,9 @@
         <p>
           Tumor models must maintain tissue structure and stromal cell distribution for 
           effective evaluation of stromal-targeting therapies [5]. PDTE preserves native 
-          architecture, cell-cell and cell-ECM interactions, and immune composition, making them 
+          architecture, cell-cell and cell-extracellular microenvironment (ECM) interactions, and immune composition, making them 
           essential for rapid drug testing in ex vivo studies [12].
         </p>
-        <p>
-          Several culturing methods have been explored to enhance the viability of tumor explants. 
-        </p> 
       </div>
       <div id="2.1.1.GelatinSponge">
         <h4>2.1.1. Gelatin Sponge-based Cultures</h4>
@@ -123,185 +146,124 @@
           <image-component tag="image" source="assets/gelatinsponge.png"
           subtitle="Figure 2: Gelatin sponge-based culture [5]. "></image-component>
         <p>
-          PDE models using gelatin sponges are promising in preclinical drug testing and 
-          studying tumor-microenvironment interactions. Yet, these models often experience 
-          rapid tissue degradation and reduced viability within six days. This challenge was 
-          partially addressed by advanced slicing technologies like vibratomes and 
-          compresstomes, which ensure uniform sample thickness [5].
+          PDE models using gelatin sponges support preclinical drug testing and TME 
+          studies, but often experience tissue degradation and reduced viability within 
+          six days. This challenge was partially addressed by advanced slicing technologies 
+          like vibratomes to improve sample consistency [5].
         </p>
       </div>
       <div id="2.1.2.Matrigel">
         <h4>2.1.2. Matrigel </h4>
         
           <image-component tag="image" source="assets/matrigel.png"
-          subtitle="Figure 3: Matrigel [5]. "></image-component>
+          subtitle="Figure 3: Matrigel culture. "></image-component>
         <p>
-          Matrigel, an extract of a mouse Engelbreth-Holm-Swarm (EHS) tumor, has facilitated the 
-          structural and functional characterization of its components by providing large amounts of 
-          ECM. It has been used for a variety of studies with embryonic, normal, and stem or malignant 
-          cells [16]. However, it only supports a short-term culture of 3 days, and the viability of PDE 
-          rapidly decreased afterwards [17].
+          A mouse tumor extract rich in ECM components, Matrigel is widely 
+          used for culturing embryonic and malignant cells, but it only supports 
+          a short-term culture of 3 days due to declining viability 
+          afterwards [13][14].
         </p>
       </div>
       <div id="2.1.3.HA">
         <h4>2.1.3. Hyaluronan (HA)-based Scaffold</h4>
         
           <image-component tag="image" source="assets/hagel.png"
-          subtitle="Figure 4: HA-based hydrogel culture. "></image-component>
+          subtitle="Figure 4: PhaseX - HA-based hydrogel culture. "></image-component>
         <p>
-          The Patient-derived hydrogel-assisted eXplants (PhaseX) hydrogel from the Translational Tumor 
-          Engineering (TTE) lab provides enhanced support for PDE compared to traditional 
-          PTFE membranes and Matrigel, using bioengineered hyaluronan (HA)-based hydrogels. HA’s 
-          similarity to extracellular matrix (ECM) makes it a promising scaffold for tissue culture 
-          [18]. PhaseX’s modifiable properties, such as stiffness, degradability, and adhesivity, 
-          preserve tissue integrity, cellular diversity, and the viability of cancer-associated 
-          fibroblasts (CAFs) and immune cells. However, adjustments for PDE from metastatic tumors 
-          may require lower matrix adhesivity to prevent excessive cell invasion, and highly 
-          vascularized tumors demand increased porosity for better nutrient and oxygen diffusion. 
-          Although effective, PhaseX’s HA hydrogel system cannot independently modulate HA 
-          concentration and stiffness, limiting its flexibility for varied applications. 
+          Developed by the Translational Tumor Engineering (TTE) lab, this HA-based 
+          hydrogel provides enhanced support for PDTE compared to traditional PTFE 
+          membranes and Matrigel. Its HA-based composition resembles native ECM, 
+          enhances tissue preservation by providing tunable properties like stiffness, 
+          degradability and adhesivity, thereby supporting cancer-associated fibroblasts and immune cells [14][15]. 
+          However, PhaseX cannot independently modulate HA concentration and stiffness, limiting its flexibility for varied applications [14].   
         </p>
         <sl-divider></sl-divider>
       <div id="2.2.Effects">
         <h3>2.2. Effects of Matrix Properties on PDTE</h3>
         <p>
-          To establish an effective hydrogel-based model, it is crucial to understand 
-          how specific matrix properties interact with PDTE and influence their structural and 
-          functional stability. Key biophysical factors include architecture (e.g., 
-          dimensionality, topography, porosity) and mechanics (e.g., stiffness, elasticity), which 
-          have been shown to influence cancer cell behavior, particularly in proliferation and 
-          migration [13]. In this review, we examine the role of matrix properties in PDTE 
-          preservation, focusing on how these factors influence the maintenance of tumor-like 
-          behavior ex vivo. By integrating insights from recent studies, this review will provide 
-          a foundation for designing an optimized hydrogel capable of extending PDTE viability for 
-          precision oncology applications. 
+          To establish an effective hydrogel-based model, it is crucial to understand how 
+          specific matrix properties influence the structural and functional stability. 
+          Key biophysical factors include architecture (e.g., dimensionality, topography, 
+          porosity) and mechanics (e.g., stiffness, elasticity), which have been shown 
+          to influence cancer cell behavior, particularly in proliferation and migration [16]. 
         </p>
         <image-component tag="image" source="assets/biophy.png"
-          subtitle="Figure 5: Biophysical properties and features of an engineered microenvironment [13]. "></image-component>
+          subtitle="Figure 5: Biophysical properties and features of an engineered microenvironment [16]. "></image-component>
 
       <div id="2.2.1.Stiffness">
-        <h4>2.2.1. Stiffness</h4>
+        <h4>2.2.1. Stiffness and Cancer Cell Viability</h4>
         <p>
-          Matrix stiffness, the extracellular environment’s rigidity, affects cell behavior, 
-          stability and scaffold integrity [14 ]. Generally, stiffer matrices promote greater cell 
-          spreading, proliferation, and differentiation, as cells detect and respond to mechanical 
-          signals in their surroundings[15 ][1 6]. For example, hepatocellular carcinoma (HCC) 
-          cells exhibit a rounded shape on softer matrices but spread extensively on stiffer ones 
-          [1 7]. Such spreading enhances nutrient absorption, which supports cell proliferation 
-          [17]. Studies on breast cancer cells cultured on agarose hydrogels of varying stiffness 
-          revealed that cells in stiffer hydrogels had higher viability under doxorubicin (DOX) 
-          treatment, suggesting that stiffer hydrogels may better mimic the increased stiffness 
-          of tumor tissue, thus improving chemoresistance study outcomes[18 ][19 ]. With breast 
-          cancer tissue stiffness typically over 4 kPa, stiffer hydrogel models may better 
-          simulate the tumor microenvironment and increase predictive accuracy for in vivo 
-          behavior [5].
+          Matrix stiffness affects the cell behavior, stability and scaffold integrity [17]. Generally, stiffer matrices 
+          promote greater cell spreading, proliferation, and differentiation[18][19]. For example, 
+          hepatocellular carcinoma (HCC) changed from a rounded shape on softer matrices to more spread out on stiffer ones, 
+          enhancing nutrient absorption, which supports cell proliferation [20]. Studies on breast cancer cells further 
+          demonstrate that stiffer hydrogels increase cell viability, even under chemotherapy (doxorubicin treatment), suggesting that stiffer hydrogels may 
+          better mimic the increased stiffness of tumor tissue, thus improving chemoresistance study outcomes [21][22].
         </p>
         <p>
-          PhaseX, a tunable HA-based hydrogel, demonstrated the impact of stiffness in ex vivo 
-          models. By adjusting HA to achieve 380 Pa stiffness, PhaseX maintained head and neck 
-          squamous cell carcinoma (HNSCC) explants for up to 9 days, preserving both tissue area 
-          and live cell count [18]. The hydrogel stiffness can also be adjusted by crosslinking 
-          HA with methacrylate anhydride to form methacrylated hyaluronic acid (MeHA/HAMA). 
-          Lu et al. showed that by adjusting the concentration of MA and the crosslinking and 
-          the ultraviolet light exposure, HAMA of different stiffness can be formed. Different 
-          stiffness of HAMA also resulted in different viability [lu]. Tailoring hydrogel 
-          stiffness to approximate the native tumor environment may have more physiologically 
-          relevant models, potentially increasing the predictability of ex vivo results for in 
-          vivo outcomes. 
+          PhaseX hydrogel with tunable stiffness maintained both the tissue area and live cell count of head and neck squamous cell carcinoma (HNSCC) 
+          explants for up to 9 days [14]. Crosslinking HA with methacrylate anhydride (MA) can form methacrylated hyaluronic acid (MeHA/HAMA), 
+          enabling stiffness adjustment to simulate the TME stiffness and increase the 
+          physiological relevance of ex vivo models, increasing the predictability of ex vivo results for in vivo outcomes [15]. 
         </p>
 
         <image-component tag="image" source="assets/hama.png"
-          subtitle="Figure 6: Different stiffness of HAMA fabricated and the resultant cell viability during the culture period[]. "></image-component>
+          subtitle="Figure 6: Different stiffness of HAMA fabricated and the resultant cell viability during the culture period[15]. "></image-component>
 
         <p>
           Interestingly, cancer cells migrating from spheroids can stiffen surrounding 
           collagen matrices through strain-induced stiffening, showing that cell migration and 
-          hydrogel stiffness mutually influence one another in tumor modeling [20]. This 
-          bidirectional relationship highlights the importance of optimizing hydrogel stiffness 
+          hydrogel stiffness mutually influence one another in tumor modeling [23]. This 
+          bidirectional relationship is essential for optimizing hydrogel stiffness 
           to mimic real tumor conditions effectively.
         </p>
       </div>
       <div id="2.2.2.Porosity">
-        <h4>2.2.2. Porosity</h4>
+        <h4>2.2.2. Porosity and Nutrient Diffusion</h4>
         <p>
-          Even though higher stiffness tends to improve the viability of solid tumors, 
-          cells were observed to migrate from the dense collagen matrix to the loose collagen 
-          matrix, indicating that the cells showed a tendency toward a more compliant 3D matrix 
-          of collagen [19]. However, Sapudom et al. suggest that cell migration may be influenced 
-          by matrix porosity instead of stiffness, with cells migrating from small to larger 
-          pores [21 ]. Most bulk hydrogels have dense polymer networks with nano-sized pores, 
-          which are typically insufficient for nutrient diffusion, cell migration, and 
-          proliferation [22 ]. The microarchitecture, consists of pore size and fiber diameter, 
-          is shown to guide cellular behaviors such as myofibroblast differentiation 
-          independently of matrix stiffness [20][23].
+          Even though higher stiffness supports the viability of solid tumors, porosity 
+          enhances nutrient diffusion and cell migration [23]. Cells often migrate from dense to loose matrices, 
+          seeking compliant environments [22][24]. Most bulk hydrogels have dense nano-sized pores that limit nutrient 
+          diffusion, cell migration and proliferation [25].
         </p>
         <p>
-          Micropores can be formed by fabricating microspheres with gelatin. Gelatin is used as 
-          it is highly water soluble. It is a good porogen as pores can be formed fast and 
-          facilitate cell migration and proliferation. Lu et al. fabricated porous HAMA using 
-          gelatin microspheres (GMS) template method. It was found that human umbilical vein 
+          Micropores formed by gelatin microspheres (GMS) templating, as used 
+          by Lu et al., can facilitate enhanced cell migration and vascularization. Gelatin is often used 
+          to form microspheres as it is a good porogen with high water solubility, pores can be formed 
+          fast and facilitate cell migration and proliferation. Lu et al. found that human umbilical vein 
           endothelial cells (HUVECs) migrated more significantly in macroporous HAMA than in 
-          non-macroporous ones, which restricted cell movement and concentrated cells on the 
-          hydrogel surface [23].
-        </p>
-        <p>
-          Pore structure is also crucial for vascularization. Porous HAMA supports greater vessel density 
-          and cell proliferation than its non-macroporous counterpart, with a pore diameter range of 
-          200 to 250 µm being optimal for cell viability, migration, and vascularization compared 
-          to smaller or larger pores. This range is suitable for tumor cells which has an average 
-          diameter of 10 to 20 µm. This pore diameter can act as a guideline for designing hydrogel 
-          models [24]. 
+          non-macroporous ones, which restricted cell movement and concentrated cells on the hydrogel surface [15][26].
+          Porous HAMA with a pore diameter range of 200µm to 250µm also supported higher cell viability, migration, and 
+          vascularization compared to smaller or larger pores as they align better with the typical tumor cell 
+          diameter of 10µm to 20µm [27].
         </p>
       </div>
       <div id="#2.2.3.Degradation">
-        <h3>2.2.3. Degradation</h3>
+        <h3>2.2.3. Degradability and Scaffold Adaptability</h3>
         <p>
-          Hydrogel scaffold degradability is essential for providing temporary support that adapts 
-          as new tissue forms. Scaffold degradation can occur through enzymatic hydrolysis, ester 
-          hydrolysis, or photolytic cleavage of polymer chains, allowing the structure to break 
-          down gradually [25 ]. Precise control of degradation is vital to ensure the scaffold 
-          lasts long enough to support cells until the newly formed tissue can sustain itself. 
-          This degradation mimics dynamic physical cues of the extracellular matrix (ECM), 
-          influencing cell behavior critical for processes like spreading, migration, 
-          proliferation, and differentiation [26].
+          Hydrogel scaffold degradability enables dynamic adaptation to cellular remodeling needs,
+          mimicking ECM's natural turnover [28][29]. Incorporating metalloproteinase (MMP)-sensitive 
+          crosslinkers with MeHA hydrogels allow human mesenchymal stem cells (hMSCs) to reshape their 
+          environment by secreting enzymes to degrade the matrix, promoting cell spreading and differentiation. 
+          Studies show MMP-sensitive hydrogels better preserve tissue integrity and cell viability in PDTE 
+          compared to non-degradable hydrogels [14][30]. Thus, designing degradable hydrogels with controlled, 
+          cell-responsive degradation supports tissue development by providing crucial structural and biochemical cues.
         </p>
-        <p>
-          A common approach to tune hydrogel degradation is to incorporate matrix 
-          metalloproteinase (MMP)-sensitive crosslinkers. For example, methacrylated 
-          hyaluronic acid (MeHA) hydrogels with MMP-sensitive links allow human mesenchymal 
-          stem cells (hMSCs) to reshape their environment by secreting enzymes to degrade the 
-          matrix, which enhances cell spreading and differentiation. Studies show that hMSCs 
-          in MMP-sensitive hydrogels express higher chondrogenic markers and reduced 
-          hypertrophic markers, promoting cartilage formation while limiting calcification 
-          [27 ]. Similarly, HA hydrogels conjugated with MMP-sensitive peptides better 
-          preserved live cells and tissue morphology in patient-derived tumor slices (PDTS) 
-          than non-degradable gels, highlighting the importance of MMP-degradability in maintaining 
-          PDTS viability [18].
-        </p>
-        <p>
-          Thus, designing degradable hydrogels with controlled, 
-          cell-responsive degradation supports tissue development by providing 
-          crucial structural and biochemical cues.
-        </p>
+
+        <image-component tag="image" source="assets/degradation.png"
+          subtitle="Figure 7: Degradable HA resulted in better viability and tissue morphology retention compared to non-degradable HA [14]. "></image-component>
       </div>
-      <div id="#2.2.4.Crosslinking">
-        <h4>2.2.4. Crosslinking Density</h4>
-        <p>
-          Crosslinking density affects stiffness, porosity, and degradability in hydrogels. 
-          Higher density increases stiffness and stability but reduces porosity, limiting 
-          nutrient diffusion and cell migration. This dense network also slows degradation 
-          [26]. Adjusting crosslinking balances these factors, enabling hydrogels to mimic 
-          tissue properties effectively, especially for accurate tumor modeling.
-        </p>
-      </div>
+  </div>
+    
   <!-- This is the code to display the scroll to top button for ergonomic -->
   <!-- You can leave it as it is, or if you don't like its aesthetics you can also just delete it, -->
   <!-- but it might reduce the user experience. -->
   <sl-button class="scroll-to-top" variant="primary" size="medium" circle onclick="scrollToTop()">
     <sl-icon name="arrow-up" label="Settings"></sl-icon>
   </sl-button>
-  <sl-button href="3. hypotheses.html">Next</sl-button>
   <sl-button href="index.html">Back</sl-button>
+  <sl-button href="3. Hypotheses and Objectives.html">Next</sl-button>
+  
 
   <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
   <script type="module" src="./components/table-component/table-component.js"></script>
