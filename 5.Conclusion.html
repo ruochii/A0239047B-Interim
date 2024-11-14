@@ -51,7 +51,7 @@
       <h2>Table of Contents</h2>
       <sl-tree>
         <sl-tree-item expanded>
-          <a href="#section-header-1">1. Introduction</a>
+          <a href="index.html#section-header-1">1. Introduction</a>
         </sl-tree-item>
 
         <sl-tree-item expanded>
@@ -65,7 +65,7 @@
                 <a href="2. litreview.html#2.1.2.Matrigel">2.1.2. Matrigel</a>
             </sl-tree-item>
             <sl-tree-item>
-              <a href="2. litreview.html#2.1.3.HA">2.1.3. Hyaluronan(HA)-based Hydrogel</a>
+              <a href="2. litreview.html#2.1.3.HA">2.1.3. HA-based Hydrogel</a>
             </sl-tree-item>
           </sl-tree-item>
           <sl-tree-item>
@@ -99,7 +99,7 @@
         <sl-tree-item expanded>
           <a href="4.Prelimstudies.html#4.Preliminarystudies">4. Preliminary Studies</a>
           <sl-tree-item>
-            <a href="4.Prelimstudies.html#4.1.MeHA">4.1. Materials Fabrication</a>
+            <a href="4.Prelimstudies.html#4.1.fab">4.1. Materials Fabrication</a>
             <sl-tree-item>
               <a href="4.Prelimstudies.html#4.1.1.meha">4.1.1. Fabrication of MeHA</a>
             </sl-tree-item>
@@ -110,16 +110,16 @@
               <a href="4.Prelimstudies.html#4.1.3.template">4.1.3. Fabrication of GMS template</a>
             </sl-tree-item>
             <sl-tree-item>
-              <a href="4.Prelimstudies.html#4.1.4.porous">4.1.3. Fabrication of Porous MeHA Gel</a>
+              <a href="4.Prelimstudies.html#4.1.4.porous">4.1.4. Fabrication of Porous MeHA Gel</a>
             </sl-tree-item>
           </sl-tree-item>
           <sl-tree-item>
-            <a href="4.Prelimstudies.html#4.2. Materials Characterization">4.2. Effects of Matrix Properties on PDTE</a>
+            <a href="4.Prelimstudies.html#4.2.characterization">4.2. Materials Characterization</a>
             <sl-tree-item>
               <a href="4.Prelimstudies.html#4.2.1.stiffnessc">4.2.1. Stiffness Control</a>
             </sl-tree-item>  
             <sl-tree-item>
-              <a href="4.Prelimstudies.html#4.2.2. pore">4.2.2. Pore Structure Generation</a>
+              <a href="4.Prelimstudies.html#4.2.2.pore">4.2.2. Pore Structure Generation</a>
             </sl-tree-item>
           </sl-tree-item>
         </sl-tree-item>
@@ -138,81 +138,23 @@
     <div>
 
       <!-- This is an example of what a section might look like -->
-      <div id="section-header-1">
-        <h2> 1. Introduction </h2>
+      <div id="5.Conclusion">
+        <h2> 5. Conclusion </h2>
         <p>
-          Cancer remains one of the deadliest diseases, 1 in 5 people develop cancer in their lifetime, 
-          approximately 1 in 9 men and 1 in 12 women die from the disease [1]. 
-          Chemotherapies and radiotherapies are the standard of care (SOC) for cancer treatment; 
-          however, the traditional one-size-fits-all approach often results in treatment 
-          noncompliance among a significant subgroup of patients. Many individuals also experience 
-          severe side effects during or after treatment, including hair loss, skin damage, 
-          fatigue, and gastrointestinal issues [2]. This clinical landscape underscores the urgent need for novel 
-          strategies that can improve patient stratification, minimize side reactions and systemic toxicity, and enhance 
-          patients’ overall well-being.
-        </p>
-        <p>
-          Precision oncology is an emerging approach to cancer treatment that seeks to address 
-          this unmet clinical need by tailoring treatments based on patients’ individual profiles. 
-          A key component of precision oncology involves significant research efforts aimed at 
-          developing novel therapies with cancer-targeting capability. Notable examples include 
-          targeted therapies (HER-2, EGFR, VEGF inhibitors) and immunotherapies (PD-1/PD-L1/CTLA-4), 
-          with many of them showing promising results in both in vitro and in vivo studies [3][4]. 
-          However, the translation of these novel drug classes into clinical practice has been slow. 
-          This delay can largely be attributed to the limitations of inappropriate preclinical models 
-          used for drug screening and validation. Models like in vitro cell lines and xenografted 
-          mice, although useful for exploring tumor biology in controlled environments, often lack the 
-          predictive power needed to determine the most effective treatment strategies for individual patients [5]. Consequently, more than 90% of the biologics 
-          shortlisted from these models fail to provide clinical benefits in trials [5].
-        </p>
-        <p>
-          Advancements in our understanding of tumor biology have emphasized the critical role of 
-          tumor heterogeneity—especially within the tumor microenvironment (TME)—in influencing 
-          tumor responses to therapies [6]. Unfortunately, traditional reductionist models such as 
-          cell lines and mouse models fail to accurately replicate the native TME. Therefore, 
-          there is a pressing demand for cancer models that can effectively recapitulate the TME, 
-          thereby improving drug assessment and facilitating the clinical translation of advanced 
-          oncological strategies.
-        </p>
-
-        <image-component tag="image" source="assets/tme.png"
-          subtitle="Figure 1: Components in TME and their functions [6]. "></image-component>
-        <p>
-          Patient-derived tumor explants (PDTE) emerge as superior materials for studying drug 
-          responses and developing new cancer treatments for their ability to preserve key elements 
-          of the native TME. Recent studies have demonstrated that PDTE maintains cell viability, 
-          stromal composition, tissue architectural integrity, and cell-cell interactions [7]. Several 
-          investigations among them further established the strong clinical correlations between 
-          PDTE-derived drug responses and patient outcomes, showcasing the remarkable potential 
-          of these ex vivo models in bridging preclinical findings to patient care [8][9][10].
-        </p>
-        <p>
-          However, current ex vivo models still face limitations, notably their short lifespan 
-          and the rapid degradation of structural and genetic features typically within 2 to 3 days [5]. 
-          This short duration poses challenges for applications like cyclic drug testing, which 
-          require longer timeframes for assessment—often on the order of weeks [11]. Additionally, for 
-          treatments such as immunotherapies, which aim to reinvigorate immune cells’ cancer-killing 
-          activity without direct cytotoxicity like chemotherapy, the time needed for therapeutic 
-          effects is extended, likely exceeding the 3-day window [12]. Hence, extending the viability of 
-          PDTE ex vivo is crucial for expanding its clinical applicability.
-        </p>
-        <p>
-          In previous research conducted in our lab (currently under peer review), 
-          we demonstrated that embedding peritoneal metastases (PM) PDTE in hyaluronic acid (HA) 
-          hydrogels significantly extended survival to at least 8 days, outperforming traditional 
-          methods such as PTFE inserts and Matrigel[5]. We also identified that hydrogel properties, 
-          such as stiffness, are critical determinants of PM PDTE cultivation outcomes. This inspires 
-          us to design and engineer a hydrogel with precisely tunable physicochemical properties, 
-          which allows us to systemically dissect different characteristics and their roles in PDTE 
-          preservation ex vivo. In doing so, we aim to enhance PDTE viability and survival to the 
-          extent which would enable the developed ex vivo system to support clinical applications 
-          otherwise unattainable with existing methods. Given the natural variability in tumors 
-          across different histologies, we aspire to create a hydrogel-based ex vivo platform that 
-          accommodates a wide range of cancers. For this proof-of-principle study, we selected HA 
-          hydrogels due to their excellent performance in our prior investigations. We plan to achieve 
-          tunability in these hydrogels by modifying HA molecules through the grafting of methacrylate (Me) 
-          to their sidechains, employing an in-house-developed templating technology, and incorporating 
-          degradable crosslinkers into the hydrogel formulation.
+          In conclusion, we have successfully fabricated MeHA with various degrees of Me and LAP 
+          substitution, and obtained precise pore sizes by integrating in-house developed 
+          templating method. In the upcoming semester, we will focus on further optimizing 
+          the stiffness of these gels, considering how pore size may influence it. At the 
+          same time, we will determine the optimal PQ concentration to control gel degradation. 
+          Considering how these three parameters interact, we will optimize all 
+          parameters—stiffness, porosity, and degradation rate—such that independent control of 
+          these parameters is achieved. Following this optimization, our research will focus on 
+          exploring how the parameters impact tumor explant viability, morphology, composition, 
+          nutrient diffusion and gene expression in ex vivo culture. We aim to conduct tissue 
+          culture experiments with three types of tissues, tailoring the matrix properties to 
+          optimize preservation. This approach will enhance our understanding of the influence 
+          of matrix characteristics on tumor explant behavior, providing insights that could lead 
+          to more refined hydrogel-based models for advancing therapeutic strategies.
         </p>
           
       </div>
@@ -225,8 +167,8 @@
   <sl-button class="scroll-to-top" variant="primary" size="medium" circle onclick="scrollToTop()">
     <sl-icon name="arrow-up" label="Settings"></sl-icon>
   </sl-button>
-  <sl-button href="4.Prelimstudies.html">Back</sl-button>
-  <sl-button href="ref.html">Next</sl-button>
+  <sl-button href="4.Prelimstudies.html#4.Preliminarystudies">Back</sl-button>
+  <sl-button href="ref.html#references">Next</sl-button>
 
   <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
   <script type="module" src="./components/table-component/table-component.js"></script>
