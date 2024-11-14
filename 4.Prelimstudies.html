@@ -81,39 +81,46 @@
             </sl-tree-item>
           </sl-tree-item>
         </sl-tree-item>
-
+        
         <sl-tree-item expanded>
-          <a href="3.Hypotheses and Objectives.html#3.Rationale">3. Rationale</a>
+          <a href="3.Rationale.html#3.Rationale">3. Rationale</a>
           <sl-tree-item>
-            <a href="3.Hypotheses and Objectives.html#3.1.Hypotheses">3.1. Hypotheses</a>
+            <a href="3.Rationale.html#3.1.Hypotheses">3.1. Hypotheses</a>
           </sl-tree-item>
           <sl-tree-item>
-            <a href="3.Hypotheses and Objectives.html#3.2.Objectives">3.2. Objectives and Experimental Strategies</a>
+            <a href="3.Rationale.html#3.2.Objectives">3.2. Objectives and Experimental Strategies</a>
           </sl-tree-item>
           <sl-tree-item>
-            <a href="3.Hypotheses and Objectives.html#3.3.Significance">3.3 Significance of the Study</a>
+            <a href="3.Rationale.html#3.3.Significance">3.3 Significance of the Study</a>
           </sl-tree-item>
         </sl-tree-item>
+        
         
         <sl-tree-item expanded>
           <a href="#4.Preliminarystudies">4. Preliminary Studies</a>
           <sl-tree-item>
-            <a href="#4.1.MeHA">4.1. Fabrication of MeHA</a>
+            <a href="#4.1.MeHA">4.1. Materials Fabrication</a>
+            <sl-tree-item>
+              <a href="#4.1.1.meha">4.1.1. Fabrication of MeHA</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#4.1.2.gms">4.1.2. Fabrication of GMS</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#4.1.3.template">4.1.3. Fabrication of GMS template</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="#4.1.4.porous">4.1.3. Fabrication of Porous MeHA Gel</a>
+            </sl-tree-item>
           </sl-tree-item>
           <sl-tree-item>
-            <a href="#4.2.gms">4.2. Fabrication of GMS</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#4.3.template">4.3 Fabrication of GMS Templates</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#4.4.porous">4.4 Fabrication of porous MeHA gels</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#4.5.stiffnesscontrol">4.5 Stiffness Control</a>
-          </sl-tree-item>
-          <sl-tree-item>
-            <a href="#4.6.pore">4.6 Pore Structure Generation</a>
+            <a href="#4.2. Materials Characterization">2.2. Effects of Matrix Properties on PDTE</a>
+            <sl-tree-item>
+              <a href="#4.2.1.stiffnessc">4.2.1. Stiffness Control</a>
+            </sl-tree-item>  
+            <sl-tree-item>
+              <a href="#4.2.2. pore">4.2.2. Pore Structure Generation</a>
+            </sl-tree-item>
           </sl-tree-item>
         </sl-tree-item>
 
@@ -131,33 +138,57 @@
     <div>
 
       <!-- This is an example of what a section might look like -->
-      <div id="section-header-1">
-        <h2> 1. Introduction </h2>
+      <div id="4.Preliminarystudies">
+        <h2> 4. Preliminary Studies </h2>
+      </div>
+
+      <div id="4.1.fab">
+        <h3> 4.1. Material Fabrication </h3>
+      </div>
+      
+      <div id="4.1.1.MeHA">
+        <h4> 4.1.1. Material Fabrication </h4>
+
         <p>
-          Cancer remains one of the deadliest diseases, 1 in 5 people develop cancer in their lifetime, 
-          approximately 1 in 9 men and 1 in 12 women die from the disease [1]. 
-          Chemotherapies and radiotherapies are the standard of care (SOC) for cancer treatment; 
-          however, the traditional one-size-fits-all approach often results in treatment 
-          noncompliance among a significant subgroup of patients. Many individuals also experience 
-          severe side effects during or after treatment, including hair loss, skin damage, 
-          fatigue, and gastrointestinal issues [2]. This clinical landscape underscores the urgent need for novel 
-          strategies that can improve patient stratification, minimize side reactions and systemic toxicity, and enhance 
-          patients’ overall well-being.
+          500mg of HA was dissolved in 50ml of Dimethylformamide (DMF): water mixture with a 1:2 
+          volume/volume ratio. The mixture was stirred continuously overnight at 4°C. 
+          The solution's pH was then adjusted to  9  using 4M sodium hydroxide (NaOH). 
+          MA was added drop by drop, ensuring the pH remained at 9 for the duration of the 
+          reaction, followed by a 5-day dialysis process using a Thermo Scientific 
+          SnakeSkin™ 3.5K MWCO, 16 mm I.D. Dialysis Tubing [31]. The MeHA was then 
+          freeze-dried and stored at 4°C until needed.
         </p>
+        <image-component tag="image" source="assets/MeHA.png"
+        subtitle="Figure 12: Procedure for MeHA fabrication. "></image-component>
+      </div>
+
+      <div id="4.2.gms">
+        <h3> 4.2. Fabrication of GMS </h3>
         <p>
-          Precision oncology is an emerging approach to cancer treatment that seeks to address 
-          this unmet clinical need by tailoring treatments based on patients’ individual profiles. 
-          A key component of precision oncology involves significant research efforts aimed at 
-          developing novel therapies with cancer-targeting capability. Notable examples include 
-          targeted therapies (HER-2, EGFR, VEGF inhibitors) and immunotherapies (PD-1/PD-L1/CTLA-4), 
-          with many of them showing promising results in both in vitro and in vivo studies [3][4]. 
-          However, the translation of these novel drug classes into clinical practice has been slow. 
-          This delay can largely be attributed to the limitations of inappropriate preclinical models 
-          used for drug screening and validation. Models like in vitro cell lines and xenografted 
-          mice, although useful for exploring tumor biology in controlled environments, often lack the 
-          predictive power needed to determine the most effective treatment strategies for individual patients [5]. Consequently, more than 90% of the biologics 
-          shortlisted from these models fail to provide clinical benefits in trials [5].
+          GMS were fabricated by emulsion. 30mL of a 10% gelatin solution was incorporated dropwise into 60mL 
+          of soybean oil with continuous stirring for 5 minutes. The water-oil emulsion mixture was transferred 
+          into a 4°C fridge to cool the mixture to 10°C with continuous stirring. The mixture was filtered with 2µm 
+          filter paper and thoroughly washed with acetone, followed by oven drying in 40°C oven overnight.  
+          The fabricated GMS were filtered with a set of standard sieves  (mesh size: 150µm, 250µm, 315µm and 400µm) 
+          and divided into groups.
         </p>
+        <image-component tag="image" source="assets/gms.png"
+        subtitle="Figure 13: Procedure for GMS fabrication. "></image-component>
+      </div>
+
+      <div id="4.3.template">
+        <h3> 4.3. Fabrication of GMS Template</h3>
+        <p>
+          Polydimethylsiloxane (PDMS) mold with 6mm diameter with 2mm height wells were filled with 
+          GMS of desired size and increased packing with slight taping. GMS was soaked with 40μL of 
+          90% ethanol and annealed in 40°C oven to allow the particles to adhere to each other and 
+          form a well-packed porogen template. 
+        </p>
+        <image-component tag="image" source="assets/template.png"
+        subtitle="Figure 14: Procedure for GMS template fabrication. "></image-component>
+      </div>
+
+
         <p>
           Advancements in our understanding of tumor biology have emphasized the critical role of 
           tumor heterogeneity—especially within the tumor microenvironment (TME)—in influencing 
@@ -218,7 +249,8 @@
   <sl-button class="scroll-to-top" variant="primary" size="medium" circle onclick="scrollToTop()">
     <sl-icon name="arrow-up" label="Settings"></sl-icon>
   </sl-button>
-  <sl-button href="2. litreview.html">Next</sl-button>
+  <sl-button href="3. Hypotheses and Objectives.html">Back</sl-button>
+  <sl-button href="5.Conclusion.html">Next</sl-button>
 
   <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
   <script type="module" src="./components/table-component/table-component.js"></script>
