@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tunable Hydrogel for Ex Vivo Preservation of Tumor Explants</title>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/light.css" />
+  <script type="module"
+    src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
+
+  <link rel="stylesheet" href="./index.css">
+
+  <link rel="stylesheet" href="./components/team-member/team-member.css">
+  <script type="module" src="./components/team-member/team-member.js"></script>
+
+  <link rel="stylesheet" href="./components/table-of-content/table-of-content.css">
+
+  <script type="module" src="./components/image/image-component.js"></script>
+
+  <script type="module" src="./components/video/video.js"></script>
+
+  <link rel="stylesheet" href="./components/references/references.css">
+
+  <link rel="stylesheet" href="./components/scroll-to-top/scroll-to-top.css">
+  <script src="./components/scroll-to-top/scroll-to-top.js"></script>
+
+  <script src="./components/table-component/table-component.js"></script>
+
+  <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="content">
+    <h1>Tunable Hydrogel for Ex Vivo Preservation of Tumor Explants</h1>
+
+    <!-- This is the team member component use to display details about your team members -->
+    <div class="team-member-wrapper">
+      <team-member avatar="assets/Profile.png" name="You Ruochii" department="Biomedical Engineering"
+        year="2021"></team-member>
+    </div>
+
+    <!-- This is a divide from the shoelace library for aesthetic purpose -->
+    <sl-divider></sl-divider>
+
+    <!-- This is the table-of-content component use to define all of the link directly to each section -->
+    <div class="table-of-content">
+      <h2>Table of Contents</h2>
+      <sl-tree>
+        <sl-tree-item expanded>
+          <a href="index.html#section-header-1">1. Introduction</a>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="2. litreview.html#section-header-2">2. Literature Review</a>
+          <sl-tree-item>
+            <a href="2. litreview.html#2.1.CurrentModels">2.1. Limitations of Current PDTE Models</a>
+            <sl-tree-item>
+                <a href="2. litreview.html#2.1.1.GelatinSponge">2.1.1. Gelatin Sponge-based Culture</a>
+            </sl-tree-item>
+            <sl-tree-item>
+                <a href="2. litreview.html#2.1.2.Matrigel">2.1.2. Matrigel</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="2. litreview.html#2.1.3.HA">2.1.3. HA-based Hydrogel</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="2. litreview.html#2.2.Effects">2.2. Key Hydrogel Properties for PDTE Culture</a>
+            <sl-tree-item>
+              <a href="2. litreview.html#2.2.1.Stiffness">2.2.1. Stiffness</a>
+            </sl-tree-item>  
+            <sl-tree-item>
+              <a href="2. litreview.html#2.2.2.Porosity">2.2.2. Porosity</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="2. litreview.html#2.2.3.CellAd">2.2.3. Cell Adhesivity</a>
+            </sl-tree-item>
+          </sl-tree-item>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="3.Rationale.html#3.Rationale">3. Rationale</a>
+          <sl-tree-item>
+            <a href="3.Rationale.html#3.1.Objectives">3.1. Objectives and Significance of Study</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="3.Rationale.html#3.2.Hypotheses">3.2. Hypotheses</a>
+          </sl-tree-item>
+        </sl-tree-item>
+
+        <sl-tree-item expanded>
+          <a href="4.Methodology.html#4.Methodology">4. Methodology</a>
+          <sl-tree-item>
+            <a href="4.Methodology.html#4.1.tissue">4.1. Tissue Processing</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="4.Methodology.html#4.2.porous">4.2. Porous MeHA Fabrication Process and Characterization</a>
+            <sl-tree-item>
+              <a href="4.Methodology.html#4.2.1.meha">4.2.1. MeHA Synthesis</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="4.Methodology.html#4.2.2.GMP">4.2.2.GMP Synthesis</a>
+              <sl-tree-item>
+                <a href="4.Methodology.html#4.2.2.1.Protocol">4.2.2.1. Protocol for GMP₁₄₀, GMP₃₀₀, GMP₄₄₀ </a>
+              </sl-tree-item>
+              <sl-tree-item>
+                <a href="4.Methodology.html#4.2.2.2.Protocol2">4.2.2.2. Protocol for GMP₆₀</a>
+              </sl-tree-item>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="4.Methodology.html#4.2.3.GMPtemplate">4.2.3. GMP Template Fabrication</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="4.Methodology.html#4.2.4.porousmeha">4.2.4. Porous MeHA Fabrication and Characterization</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="4.Methodology.html#4.2.5.GMPdissolution">4.2.5. GMP Dissolution Test</a>
+            </sl-tree-item>
+          </sl-tree-item>         
+        </sl-tree-item>
+        
+        <sl-tree-item expanded>
+          <a href="5.Results.html#5.Results">5. Results and Discussion</a>
+          <sl-tree-item>
+            <a href="5.Results.html#5.1.Stiffnessfab">5.1. Stiffness Fabrication and Characterization</a>
+            <sl-tree-item>
+              <a href="5.Results.html#5.1.1.Tissuestiff">5.1.1. Tissue Stiffness Test</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="5.Results.html#5.1.2.Development">5.1.2. Development of Tunable Stiffness</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="5.Results.html#5.1.3.Impact">5.1.3. Impact of Hydrogel Stiffness on Cell Viability</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="5.Results.html#5.2.GMPfabrication">5.2. GMP Fabrication and Pore Characterization</a>
+            <sl-tree-item>
+              <a href="5.Results.html#5.2.1.Optimization">5.2.1. Optimization of GMP and Pore Fabrication</a>
+            </sl-tree-item>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="5.Results.html#5.3.Stiffnesschar">5.3. Stiffness Characterization of Porous MeHA</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="5.Results.html#5.4.Dissolution">5.4. GMP Dissolution Test</a>
+          </sl-tree-item>
+          <sl-tree-item>
+            <a href="5.Results.html#5.5.Preliminary">5.5. Preliminary Culture</a>
+            <sl-tree-item>
+              <a href="5.Results.html#5.5.1.Cellvi">5.5.1. Cell Viability</a>
+            </sl-tree-item>
+            <sl-tree-item>
+              <a href="5.Results.html#5.5.2.Surface">5.5.2. Surface Area Change</a>
+            </sl-tree-item>
+          </sl-tree-item>
+        </sl-tree-item>
+        <sl-tree-item expanded>
+          <a href="6.Conclusion.html#6.Conclusion">6. Conclusion and Recommendation</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="ref.html">References</a>
+        </sl-tree-item>
+      </sl-tree>
+    </div>
+    <sl-divider></sl-divider>
+
+    <div>
+
+      <!-- This is an example of what a section might look like -->
+      <div id="4.Methodology">
+        <h2> 4. Methodology </h2>
+      </div>
+
+      <div id="4.1.tissue">
+        <h3> 4.1. Tissue Processing </h3>
+        <p>
+          Tumors were collected from the National Cancer Center Singapore (NCCS). 
+          Samples were processed within two to five hours after resection. 
+          Before processing, tumor tissues were washed three times with 
+          sterile Hank's Balanced Salt Solution (HBSS) buffer. Then, 
+          prepared at a thickness of 300 µm using a precision-cut 
+          vibrating-blade microtome (Leica VT1200S). Following the 
+          slicing process, the slices were placed in a complete 
+          culture medium (1X DMEM/F12 media enriched with 
+          10% fetal bovine serum, 1% Penicillin-Streptomycin, 
+          0.1mg/ml Primocin, and 1X ROCK pathway inhibitor) and 
+          incubated under standard conditions (37 °C, 90% humidity, 
+          13.5% CO2) for one hour to recover. After this recovery phase, the slices 
+          were randomly distributed to MeHA gels.
+        </p>
+      </div>
+
+      <div id="4.2.porous">
+        <h3> 4.2. Porous MeHA Fabrication Process and Characterization </h3>
+        <div id="4.2.1.meha">
+          <h4>4.2.1.MeHA Synthesis</h4>
+          <p>
+            0.5g of HA was dissolved in 50 mL of mixed solvent of 
+            Dimethylformamide (DMF) and H2O (1:2 v/v), stirred at 
+            700 rpm overnight in the 4 ℃ fridge. MA was added 
+            dropwise into the solution, adjusting the pH to 8.5 
+            using 4 M NaOH. The reaction continued around 24 
+            hours in the 4 ℃ fridge with stirring. Throughout the 
+            reaction, the pH was maintained at 8.5 with a 
+            second pH adjustment after the first 10 hours. 
+            Subsequently, MeHA was dialyzed for 5 days in a dialysis 
+            membrane with a molecular weight cutoff of 3.5 kDa after 
+            centrifugation (5000 rpm, 5 minutes) to remove precipitates. 
+            Finally, the MeHA was freeze-dried for 3 days and stored at 
+            4 ℃ for future use.
+          </p>
+          <image-component tag="image" source="assets/meha.png"
+          subtitle="<b>Figure 7: MeHA synthesis process.</b>"></image-component>
+        </div>
+      </div>
+      
+      <div id="4.2.2.GMP">
+        <h4>4.2.2.GMP Synthesis</h4>
+        <div id="4.2.2.1.Protocol">
+          <h5> 4.2.2.1. Protocol for GMP₁₄₀, GMP₃₀₀, GMP₄₄₀ </h5>
+
+          <p>
+            GMP were generally fabricated by the water-in-oil (W/O) emulsion method. 
+            The gelatin solution was first achieved by dissolving 3 g of gelatin 
+            powder from porcine skin in 30 mL of preheated H2O (over 40 ℃), then dropwise 
+            added into 40 mL of soybean oil with stirring at 800 rpm for 5 minutes. 
+            The water-in-oil emulsion was cooled to 10 ℃ with continuous stirring. 
+            GMP were collected by vacuum filtration with 2 µm filter paper. 
+            The collected GMP were washed with acetone, followed by drying in 
+            60 ℃ oven overnight. The achieved GMP were sieved with a set of 
+            standard sieves(400 µm, 315µm, 250 µm, 150 µm) and divided the 
+            particles into desired sizes.
+          </p>
+          <image-component tag="image" source="assets/gmp1.png"
+          subtitle="<b>Figure 8: Procedure for MeHA fabrication. </b>"></image-component>
+      </div>
+
+      <div id="4.1.2.gms">
+        <h4> 4.1.2. Fabrication of GMS </h4>
+        <p>
+          GMS were fabricated by emulsion. 30mL of a 10% gelatin solution was incorporated dropwise into 60mL 
+          of soybean oil with continuous stirring for 5 minutes. The water-oil emulsion mixture was transferred 
+          into a 4°C fridge to cool the mixture to 10°C with continuous stirring. The mixture was filtered with 2µm 
+          filter paper and thoroughly washed with acetone, followed by oven drying in 40°C oven overnight.  
+          The fabricated GMS were filtered with a set of standard sieves  (mesh size: 150µm, 250µm, 315µm and 400µm) 
+          and divided into groups.
+        </p>
+        <image-component tag="image" source="assets/porosity.pdf"
+        subtitle="Figure 13: Procedure for GMS fabrication. "></image-component>
+      </div>
+
+      <div id="4.1.3.template">
+        <h4> 4.1.3. Fabrication of GMS Template</h4>
+        <p>
+          Polydimethylsiloxane (PDMS) mold with 6mm diameter with 2mm height wells were filled with 
+          GMS of desired size and increased packing with slight taping. GMS was soaked with 40μL of 
+          90% ethanol and annealed in 40°C oven to allow the particles to adhere to each other and 
+          form a well-packed porogen template. 
+        </p>
+        <image-component tag="image" source="assets/template.png"
+        subtitle="Figure 14: Procedure for GMS template fabrication. "></image-component>
+      </div>
+
+      <div id="4.1.4.porous">
+        <h4> 4.1.4. Fabrication of Porous MeHA Gel</h4>
+        <p>
+          To prepare the precursor solution, 1.5%MeHA and 0.5% photoinitiator 
+          LAP were dissolved in water. Subsequently, the GMS template was immersed 
+          in the solution under vacuum. The resultant mixture was then exposed to ultraviolet light (405 m, 30 mW cm−2) for 2 
+          minutes to induce crosslinking.
+        </p>
+        <image-component tag="image" source="assets/porous.png"
+        subtitle="Figure 15: Procedure for porous MeHA gel. "></image-component>
+      </div>
+      
+      <sl-divider></sl-divider>
+      
+      <div id="4.2.characterization">
+        <h3> 4.2. Materials Characterization </h3>
+      </div>
+      
+      <div id="4.2.1.stiffnessc">
+        <h4> 4.2.1. Stiffness Control </h4>
+
+        <p>
+          We synthesized MeHA hydrogels with 10 distinct stiffness levels by 
+          modulating the concentration of LAP in the hydrogel solution. 
+          The stiffness of these hydrogels is directly proportional to LAP concentration, 
+          ranging from 97Pa to 2.4kPa (Figure 16). 
+        </p>
+        <image-component tag="image" source="assets/stiffness.png"
+        subtitle="Figure 16: MeHA hydrogel formula and respective stiffness. "></image-component>
+      </div>
+
+      <div id="4.2.2.pore">
+        <h4> 4.2.2. Pore Structure Generation </h4>
+        <p>
+          GMS were fabricated as shown in Figure 13. Fine particles were expected 
+          after the washing and drying stage, but aggregation persisted even after vigorous 
+          shaking during washing. To address this, clumps due to aggregation were cut into smaller pieces 
+          with scissors. This led to irregular particles forming and caused the formation 
+          of irregular pore shapes. This deviated from our goal of creating a uniform 
+          pore structure that would serve as a more ideal physical microenvironment for controlled proliferation.
+        </p>
+        <image-component tag="image" source="assets/aggsem.png"
+        subtitle="Figure 17: Irregular particle shapes and pore shapes observed under SEM. "></image-component>
+
+        <p>
+          It was found that more clumps were formed when oil was fully removed from the residue during the filtration 
+          step. Therefore, we attempted to collect the residue when the residue was still moist and less clumps observed.
+        </p>
+        <image-component tag="image" source="assets/refinedgms.png"
+        subtitle="Figure 18: Less aggregation of GMS observed with the refined method. "></image-component>
+  
+        <p>
+          Using the refined filtration step, we successfully created three distinct GMS size range with round 
+          particles, resulting in hydrogels with uniform pore diameters in three categories: 
+          less than 100μm, 100μm to 200μm, and 200μm to 300μm. This uniformity in pore size will enhance the 
+          consistency of the microenvironment within the hydrogel, supporting more controlled cellular 
+          interactions and nutrient diffusion. 
+        </p>
+        <image-component tag="image" source="assets/sem.png"
+        subtitle="Figure 19: Three distinct GMS size range with three distinct pore size range. "></image-component>
+        
+        <p>
+          Since the average size of a tumor cell is 10 to 20 microns, we also aim to fabricate pores smaller than 10μm to investigate cell behavior and interactions 
+          within a confined space [27]. To achieve this, we will first assess the smallest GMS size range we can obtain from the less than 100μm batch 
+          using smaller sieves. If the resulting GMS size range is not below 10μm, we will fabricate gelatin nanospheres by adjusting the parameters in 
+          our existing protocol.
+        </p>
+      </div>
+      
+  </div>
+
+  <!-- This is the code to display the scroll to top button for ergonomic -->
+  <!-- You can leave it as it is, or if you don't like its aesthetics you can also just delete it, -->
+  <!-- but it might reduce the user experience. -->
+  <sl-button class="scroll-to-top" variant="primary" size="medium" circle onclick="scrollToTop()">
+    <sl-icon name="arrow-up" label="Settings"></sl-icon>
+  </sl-button>
+  <sl-button href="3.Rationale.html#3.Rationale">Back</sl-button>
+  <sl-button href="5.Conclusion.html">Next</sl-button>
+
+  <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+  <script type="module" src="./components/table-component/table-component.js"></script>
+</body>
+
+</html>
