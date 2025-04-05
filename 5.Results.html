@@ -173,98 +173,168 @@
     <div>
 
       <!-- This is an example of what a section might look like -->
-      <div id="4.Methodology">
-        <h2> 4. Methodology </h2>
+      <div id="5.Results">
+        <h2> 5. Results and Discusssion</h2>
       </div>
 
-      <div id="4.1.tissue">
-        <h3> 4.1. Tissue Processing </h3>
+      <div id="5.1.Stiffnessfab">
+        <h3> 5.1. Stiffness Fabrication and Characterization </h3>
         <p>
-          Tumors were collected from the National Cancer Center Singapore (NCCS). 
-          Samples were processed within two to five hours after resection. 
-          Before processing, tumor tissues were washed three times with 
-          sterile Hank's Balanced Salt Solution (HBSS) buffer. Then, 
-          prepared at a thickness of 300 µm using a precision-cut 
-          vibrating-blade microtome (Leica VT1200S). Following the 
-          slicing process, the slices were placed in a complete 
-          culture medium (1X DMEM/F12 media enriched with 
-          10% fetal bovine serum, 1% Penicillin-Streptomycin, 
-          0.1mg/ml Primocin, and 1X ROCK pathway inhibitor) and 
-          incubated under standard conditions (37 °C, 90% humidity, 
-          13.5% CO2) for one hour to recover. After this recovery phase, the slices 
-          were randomly distributed to MeHA gels.
+          As a preliminary study, the team had previously developed five MeHA 
+          formula with a wide range of stiffness levels, and tested the 
+          crosslinking time of the MeHA (Appendix A). 
         </p>
       </div>
 
-      <div id="4.2.porous">
-        <h3> 4.2. Porous MeHA Fabrication Process and Characterization </h3>
-        <div id="4.2.1.meha">
-          <h4>4.2.1.MeHA Synthesis</h4>
-          <p>
-            0.5g of HA was dissolved in 50 mL of mixed solvent of 
-            Dimethylformamide (DMF) and H2O (1:2 v/v), stirred at 
-            700 rpm overnight in the 4 ℃ fridge. MA was added 
-            dropwise into the solution, adjusting the pH to 8.5 
-            using 4 M NaOH. The reaction continued around 24 
-            hours in the 4 ℃ fridge with stirring. Throughout the 
-            reaction, the pH was maintained at 8.5 with a 
-            second pH adjustment after the first 10 hours. 
-            Subsequently, MeHA was dialyzed for 5 days in a dialysis 
-            membrane with a molecular weight cutoff of 3.5 kDa after 
-            centrifugation (5000 rpm, 5 minutes) to remove precipitates. 
-            Finally, the MeHA was freeze-dried for 3 days and stored at 
-            4 ℃ for future use.
-          </p>
-          <image-component tag="image" source="assets/meha.png"
-          subtitle="<b>Figure 7: MeHA synthesis process.</b>"></image-component>
-        </div>
+      <div id="#5.1.1.Tissuestiff">
+        <h4> 5.1.1. Tissue Stiffness Test</h4>
+        <p>
+          To better replicate the stiffness of various tumor tissues, we first 
+          characterized the stiffness distribution of various tissue types by 
+          measuring Young’s modulus with atomic force microscope (AFM). As shown 
+          in Figure 12a, the tissue stiffness varied significantly across 
+          different groups, with mean Young’s modulus values ranging from 
+          1.1 kPa (LM#2) to 6.8 kPa (OC#4). Most samples exhibited stiffness 
+          values between 0.1 to 3 kPa, whereas stiffer tissues 
+          (e.g., CRC#6, OC#6) displayed Young’s modulus values extending 
+          beyond 4 kPa. These variations highlight the heterogeneity 
+          in tumor microenvironments. Therefore, there is a need for 
+          biomaterials that can mimic a broad range of mechanical properties.
+        </p>
+      </div>
+
+      <div id="5.1.2.Development">
+        <h4> 5.1.2. Development of Tunable Stiffness</h4>
+        <p>
+          To recapitulate these diverse mechanical environments, we further expanded 
+          the stiffness range by varying the LAP concentrations, in addition to 
+          the concentrations of MeHA. The Young's modulus of the resulting 
+          hydrogels is proportional to the LAP concentration, ranging from 
+          0.29 kPa (MeHA-1, 1% LAP) to 7.14 kPa (MeHA-5, 1% LAP), covering 
+          a wide spectrum of stiffness level (Figure 12b). This tunability 
+          is essential for creating ex vivo models that better represent 
+          PDTE under physiologically relevant conditions.
+        </p>
+      </div>
+
+      <div id="5.1.3.Impact">
+        <h4> 5.1.3. Impact of Hydrogel Stiffness on Cell Viability </h4>
+        <p>
+          The effect of hydrogel stiffness on cell viability was 
+          assessed by measuring normalized cell viability over a 12-day 
+          culture period (Figure 12c). HA-5 promoted the highest cell 
+          viability over time. Therefore, this formula was used for 
+          further studies of the other parameters. It was observed that 
+          high stiffness hydrogels (HA-7 to HA10) exhibited a decline in 
+          viability. These findings align with previous studies demonstrating 
+          that excessive matrix stiffness can impair cell proliferation and 
+          viability, likely due to increased cellular stress and reduced 
+          nutrient diffusion. Therefore, to improve nutrient diffusion, 
+          particularly for long-term culture systems, GMP plates were 
+          included to enhance porosity for cell growth. 
+        </p>
+        <image-component tag="image" source="assets/stiffness.png"
+          subtitle="<b>Figure 12: Stiffness test results. </b>a: Tissue stiffness; b: MeHA hydrogel formula and respective stiffness the resultant cell viability of PDTE after a 12-day culture. "></image-component> 
       </div>
       
-      <div id="4.2.2.GMP">
-        <h4>4.2.2.GMP Synthesis</h4>
-        <div id="4.2.2.1.Protocol">
-          <h5> 4.2.2.1. Protocol for GMP₁₄₀, GMP₃₀₀, GMP₄₄₀ </h5>
-
-          <p>
-            GMP were generally fabricated by the water-in-oil (W/O) emulsion method. 
-            The gelatin solution was first achieved by dissolving 3 g of gelatin 
-            powder from porcine skin in 30 mL of preheated H2O (over 40 ℃), then dropwise 
-            added into 40 mL of soybean oil with stirring at 800 rpm for 5 minutes. 
-            The water-in-oil emulsion was cooled to 10 ℃ with continuous stirring. 
-            GMP were collected by vacuum filtration with 2 µm filter paper. 
-            The collected GMP were washed with acetone, followed by drying in 
-            60 ℃ oven overnight. The achieved GMP were sieved with a set of 
-            standard sieves(400 µm, 315µm, 250 µm, 150 µm) and divided the 
-            particles into desired sizes.
-          </p>
-          <image-component tag="image" source="assets/gmp1.png"
-          subtitle="<b>Figure 8: Procedure for MeHA fabrication. </b>"></image-component>
+      <div id="5.2.GMPfabrication">
+        <h4>5.2. GMP Fabrication and Pore Characterization</h4>
+        <p>
+          To create pores for cell migration and nutrient diffusion, GMP of different sizes 
+          were added to MeHA (Section 3.2.2.1). We hypothesized that smaller pores may confine 
+          cell movement, while the larger pores would allow multicellular aggregates and stromal 
+          interactions. Initially, clumps formed after filtration and even vortexing (Figure 13b) 
+          due to excessive filtration, removing stabilizing oil. A scissor-cutting step was done 
+          for particle dispersion but led to irregular GMP (Figure 13c) and poorly interconnected 
+          pores with poor shapes after GMP dissolution (Figure 13d). This is undesirable since 
+          pore interconnectivity and shape affect cell proliferation, while irregular or 
+          collapsed pores can limit diffusion, causing necrosis [38][39] . 
+        </p>
       </div>
 
-      <div id="4.1.2.gms">
-        <h4> 4.1.2. Fabrication of GMS </h4>
+      <div id="5.2.1.Optimization">
+        <h4> 5.2.1. Optimization of GMP and Pore Fabrication </h4>
         <p>
-          GMS were fabricated by emulsion. 30mL of a 10% gelatin solution was incorporated dropwise into 60mL 
-          of soybean oil with continuous stirring for 5 minutes. The water-oil emulsion mixture was transferred 
-          into a 4°C fridge to cool the mixture to 10°C with continuous stirring. The mixture was filtered with 2µm 
-          filter paper and thoroughly washed with acetone, followed by oven drying in 40°C oven overnight.  
-          The fabricated GMS were filtered with a set of standard sieves  (mesh size: 150µm, 250µm, 315µm and 400µm) 
-          and divided into groups.
+          To reduce aggregation, we moderated oil filtration, collecting 
+          GMP while still moist. The residual oil was removed by washing 
+          with excess acetone and vortex until the particles became white 
+          and the supernatant was clear. This reduced clump formation, 
+          avoiding the scissor cutting step. SEM analysis (Figure 13e) 
+          further confirmed that most GMP were individually dispersed 
+          and had a circular shape, with fewer aggregates even among 
+          the larger particles, resulting in more interconnected and 
+          circular pores (Figure 13g). They were analyzed with Image 
+          J and presented in Figure 13h and 13i. Every group was named 
+          after the average size calculated. 
         </p>
-        <image-component tag="image" source="assets/porosity.pdf"
-        subtitle="Figure 13: Procedure for GMS fabrication. "></image-component>
+
+        <p>
+          Three larger GMP size and the resultant pore sizes were 
+          successfully fabricated. Since tumor cells range from 10 to 
+          20 µm, we fabricated a smaller GMP to create diverse pore 
+          sizes for studying cell behavior [40]. We attempted to 
+          lower the mass and increased the stirring speed using the 
+          GMP protocol as described in Section 4.2.2.1. The average 
+          particle size obtained was around 100 µm. As such, we 
+          explored a double emulsion (O/W/O) method. After trying 
+          0.5 g, 1 g and 2 g gelatin with 1000 rpm stirring speed, 
+          we observed the following (Figure 13k). 
+        </p>
+
+        <p>
+          At 0.5 g, 1000 rpm, the resulting particles were smaller 
+          than 50 µm but highly irregular in shape. Increasing the 
+          gelatin mass to 1 g, stirring at 1000 rpm, a well-defined, 
+          spherical morphology with a mean size of approximately 50 µm, 
+          suggesting an optimal balance between shear force and 
+          interfacial tension during emulsification. Interestingly, 
+          when we used the same condition but a 1000ml beaker 
+          (2000ml beaker for the rest) with the same volume of 
+          ethanol, a higher yield of particles was obtained but 
+          with excessive fragmentation, likely due to intensified 
+          shear stress in the smaller beaker. Further increasing the 
+          gelatin mass to 2 g, stirring at 1000 rpm led to 
+          significantly larger particles (100 µm) with some 
+          coalescence, likely due to the increased viscosity 
+          reducing droplet breakup efficiency. Based on these 
+          findings, the 1 g, 1000 rpm condition was selected 
+          for the smallest pore formation. Following the trend (Figure 13j), 
+          even though the average actual particle size was 60 µm, the 
+          resultant pore size was 30 µm, smaller than the particle size. 
+          This pore size could provide sufficient space for individual 
+          cells to migrate. 
+        </p>
+
+        <p>
+          To improve efficiency, we fabricated a new mold for GMP plate production. 
+          Initially, the GMP plates were fabricated in a rectangular PDMS mold 
+          with 2 mm height, and the GMP plates were obtained using a punch 
+          biopsy of a 6 mm radius (Figure 13l). However, precise annealing was 
+          needed to prevent sticking or fracturing (Figure 13m). To simplify 
+          this, a PDMS mold with 6 mm wells (Figure 10) was used, allowing direct 
+          GMP formation. This eliminated punching, extended annealing time and 
+          ensured consistent, easily demolded plates without strict timing control. 
+          To conclude, four sizes of particles and resultant spatially defined porosity and crosslinking were fabricated.
+          A size difference between the particles and pores formed was observed, with an escalation correlating with the increase in particle and pore sizes.
+        </p>
+        <image-component tag="image" source="assets/porosity.png"
+        subtitle="<b>Figure 13: GMP and porous MeHA fabrication. </b>a: GMP collected; b: Clumps observed after purification step; c, d: Irregular GMP and pores formed due to clumps; e, g: SEM of optimized GMP and porous MeHA; f: GMP plates, MeHA gel and porous MeHA gel fabricated; h,i,j: Histograms of GMP, pores and the size difference between GMP and pores; k: Microscopy images of smallest GMP fabricated; l: Initial GMP plate fabrication tools; m: Deformed, fractured GMP fabricated using tools in l. "></image-component>
       </div>
 
-      <div id="4.1.3.template">
-        <h4> 4.1.3. Fabrication of GMS Template</h4>
+      <div id="5.3.Stiffnesschar">
+        <h4> 5.3. Stiffness Characterization of Porous MeHA</h4>
         <p>
-          Polydimethylsiloxane (PDMS) mold with 6mm diameter with 2mm height wells were filled with 
-          GMS of desired size and increased packing with slight taping. GMS was soaked with 40μL of 
-          90% ethanol and annealed in 40°C oven to allow the particles to adhere to each other and 
-          form a well-packed porogen template. 
+          With the optimized porous MeHA protocol, stiffness 
+          characterization was conducted again with the inclusion of 
+          140 µm GMP plates and 2mg/ml of RGD for all conditions. A 
+          new range of stiffness was established. It could be observed 
+          that compared to MeHA without GMP plates (Figure 12), the Young's modulus 
+          tested was slightly lower since pores were formed, resisting the 
+          gel’s ability to resist deformation. The first condition will 
+          continue to be used for further material studies.
         </p>
-        <image-component tag="image" source="assets/template.png"
-        subtitle="Figure 14: Procedure for GMS template fabrication. "></image-component>
+        <image-component tag="image" source="assets/porousmeha.png"
+        subtitle="<b>Figure 14: Porous MeHA stiffness test. </b>a: Hydrogel formula with MeHA_60 pore size and 2mg/ml RGD; b: The resultant stiffness level. "></image-component>
       </div>
 
       <div id="4.1.4.porous">
