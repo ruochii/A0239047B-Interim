@@ -236,7 +236,7 @@
         <image-component tag="image" source="assets/stiffness.png"
           subtitle="<b>Figure 12: Stiffness test results. </b>a: Tissue stiffness; b: MeHA hydrogel formula and respective stiffness the resultant cell viability of PDTE after a 12-day culture. "></image-component> 
       </div>
-      
+      <sl-divider></sl-divider>
       <div id="5.2.GMPfabrication">
         <h4>5.2. GMP Fabrication and Pore Characterization</h4>
         <p>
@@ -320,7 +320,7 @@
         <image-component tag="image" source="assets/porosity.png"
         subtitle="<b>Figure 13: GMP and porous MeHA fabrication. </b>a: GMP collected; b: Clumps observed after purification step; c, d: Irregular GMP and pores formed due to clumps; e, g: SEM of optimized GMP and porous MeHA; f: GMP plates, MeHA gel and porous MeHA gel fabricated; h,i,j: Histograms of GMP, pores and the size difference between GMP and pores; k: Microscopy images of smallest GMP fabricated; l: Initial GMP plate fabrication tools; m: Deformed, fractured GMP fabricated using tools in l. "></image-component>
       </div>
-
+      <sl-divider></sl-divider>
       <div id="5.3.Stiffnesschar">
         <h4> 5.3. Stiffness Characterization of Porous MeHA</h4>
         <p>
@@ -336,76 +336,91 @@
         <image-component tag="image" source="assets/porousmeha.png"
         subtitle="<b>Figure 14: Porous MeHA stiffness test. </b>a: Hydrogel formula with MeHA_60 pore size and 2mg/ml RGD; b: The resultant stiffness level. "></image-component>
       </div>
-
-      <div id="4.1.4.porous">
-        <h4> 4.1.4. Fabrication of Porous MeHA Gel</h4>
+      <sl-divider></sl-divider>
+      <div id="5.4.Dissolution">
+        <h4> 5.4. GMP Dissolution Test</h4>
         <p>
-          To prepare the precursor solution, 1.5%MeHA and 0.5% photoinitiator 
-          LAP were dissolved in water. Subsequently, the GMS template was immersed 
-          in the solution under vacuum. The resultant mixture was then exposed to ultraviolet light (405 m, 30 mW cm−2) for 2 
-          minutes to induce crosslinking.
+          To determine the GMP plates dissolution rate, a dissolution 
+          test was conducted as described in Section 4.2.5.. 
         </p>
-        <image-component tag="image" source="assets/porous.png"
-        subtitle="Figure 15: Procedure for porous MeHA gel. "></image-component>
+        <p>
+          All porous MeHA exhibited a progressive increase in dissolution, 
+          reaching near-complete dissolution (~100%) by 5th hour. 
+          MeHA_60 showed the slowest dissolution rate, followed by 
+          MeHA_140 and MeHA_290, indicating that small GMP with 
+          small gaps in between particles, were harder to penetrate, 
+          which may affect initial nutrient diffusion into the 
+          gel during culture. This results suggest that finding an 
+          optimal GMP, hence pore size for culture is crucial for 
+          balancing between controlling cell migration and nutrient 
+          diffusion. Additionally, fluctuations in dissolution 
+          percentages over time could be attributed to 
+          aggregation effects or slight mass difference in 
+          the GMP plates used. The error bars indicate 
+          variability across replicates, suggesting that 
+          while the trends are consistent, further 
+          optimization of dissolution conditions may enhance reproducibility.
+        </p>
+        <image-component tag="image" source="assets/dissolution.png"
+        subtitle="<b>Figure 15: Dissolution rate of GMP. </b>a: Hydrogel before dissolution and after 9h of dissolution; b: Dissolution rate of each GMP condition. "></image-component>
       </div>
       
       <sl-divider></sl-divider>
       
-      <div id="4.2.characterization">
-        <h3> 4.2. Materials Characterization </h3>
+      <div id="5.5.Preliminary">
+        <h3> 5.5. Preliminary Culture</h3>
+        <p>
+          Although the MeHA hydrogel model was not fully optimised, a preliminary 
+          study assessed its suitability for tissue culture. HA-5 with 
+          2mg/ml RGD and MeHA_140 were used to culture melanoma and 
+          ovarian cancer tumor explants. Medium was changed every 
+          two days from day 0. Surface area images were taken on days 
+          0, 3, 7, and 12 for ImageJ analysis. Confocal microscopy on days 
+          3, 7, and 12 assessed viabilities. Figure 16a and 16b show the 
+          initial sample conditions.
+        </p>
+        <image-component tag="image" source="assets/prelim0.png"
+        subtitle="<b>Figure 16: Samples at the start of the culture. </b>a: Melanoma; b: Ovarian cancer. "></image-component>
       </div>
       
-      <div id="4.2.1.stiffnessc">
-        <h4> 4.2.1. Stiffness Control </h4>
+      <div id="5.5.1.Cellvi">
+        <h4> 5.5.1. Cell Viability </h4>
 
         <p>
-          We synthesized MeHA hydrogels with 10 distinct stiffness levels by 
-          modulating the concentration of LAP in the hydrogel solution. 
-          The stiffness of these hydrogels is directly proportional to LAP concentration, 
-          ranging from 97Pa to 2.4kPa (Figure 16). 
+          Melanoma cell viability increased over time, with a significant difference between 
+          MeHA and PTFE at Day 12 (p < 0.05), suggesting MeHA 
+          supports sustained growth. In contrast, ovarian cancer cells 
+          showed consistently low viability in both conditions, potentially due 
+          to samples not properly submerged into after extraction. A buffer maintains 
+          the physiological conditions of the tissue during transportation, essential 
+          for cellular viability and function. Confocal images further supported these 
+          findings, showing higher melanoma cell density in MeHA, while ovarian cancer 
+          cells, exhibited limited spreading and clustering, reinforcing reduced 
+          viability observations at later time points (D7, D12).
         </p>
-        <image-component tag="image" source="assets/stiffness.png"
-        subtitle="Figure 16: MeHA hydrogel formula and respective stiffness. "></image-component>
       </div>
 
-      <div id="4.2.2.pore">
-        <h4> 4.2.2. Pore Structure Generation </h4>
+      <div id="5.5.2.Surface">
+        <h4> 5.5.2. Surface Area Change </h4>
         <p>
-          GMS were fabricated as shown in Figure 13. Fine particles were expected 
-          after the washing and drying stage, but aggregation persisted even after vigorous 
-          shaking during washing. To address this, clumps due to aggregation were cut into smaller pieces 
-          with scissors. This led to irregular particles forming and caused the formation 
-          of irregular pore shapes. This deviated from our goal of creating a uniform 
-          pore structure that would serve as a more ideal physical microenvironment for controlled proliferation.
+          For melanoma, explants maintained a stable surface area over 12 days, 
+          with no significant changes across time points or between materials, 
+          suggesting MeHA supports morphological preservation similarly to PTFE. 
+          Ovarian cancer samples expanded over time, particularly in MeHA, likely 
+          due to rehydration after inadequate buffer submersion post-resection. 
+          MeHA’s high water retention and the structural loosening due to ECM 
+          remodeling support might have contributed to this expansion. In contrast, 
+          PTFE, which is a more inert material with limited hydration potential, 
+          did not induce the same degree of swelling. These findings highlight the 
+          importance of standardized tissue handling in hydrogel-based models to 
+          ensure consistent and reliable measurements of tumor behavior.
         </p>
-        <image-component tag="image" source="assets/aggsem.png"
-        subtitle="Figure 17: Irregular particle shapes and pore shapes observed under SEM. "></image-component>
 
-        <p>
-          It was found that more clumps were formed when oil was fully removed from the residue during the filtration 
-          step. Therefore, we attempted to collect the residue when the residue was still moist and less clumps observed.
-        </p>
-        <image-component tag="image" source="assets/refinedgms.png"
-        subtitle="Figure 18: Less aggregation of GMS observed with the refined method. "></image-component>
-  
-        <p>
-          Using the refined filtration step, we successfully created three distinct GMS size range with round 
-          particles, resulting in hydrogels with uniform pore diameters in three categories: 
-          less than 100μm, 100μm to 200μm, and 200μm to 300μm. This uniformity in pore size will enhance the 
-          consistency of the microenvironment within the hydrogel, supporting more controlled cellular 
-          interactions and nutrient diffusion. 
-        </p>
-        <image-component tag="image" source="assets/sem.png"
-        subtitle="Figure 19: Three distinct GMS size range with three distinct pore size range. "></image-component>
-        
-        <p>
-          Since the average size of a tumor cell is 10 to 20 microns, we also aim to fabricate pores smaller than 10μm to investigate cell behavior and interactions 
-          within a confined space [27]. To achieve this, we will first assess the smallest GMS size range we can obtain from the less than 100μm batch 
-          using smaller sieves. If the resulting GMS size range is not below 10μm, we will fabricate gelatin nanospheres by adjusting the parameters in 
-          our existing protocol.
-        </p>
+        <image-component tag="image" source="assets/prelim.png"
+        subtitle="<b>Figure 17: Preliminary culture results. </b>a and b: Cell viability of melanoma and ovarian cancer samples; c and d: surface area change of melanoma and ovarian cancer samples. "></image-component>
       </div>
-      
+
+ 
   </div>
 
   <!-- This is the code to display the scroll to top button for ergonomic -->
@@ -415,7 +430,7 @@
     <sl-icon name="arrow-up" label="Settings"></sl-icon>
   </sl-button>
   <sl-button href="3.Rationale.html#3.Rationale">Back</sl-button>
-  <sl-button href="5.Conclusion.html">Next</sl-button>
+  <sl-button href="6.Conclusion.html">Next</sl-button>
 
   <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
   <script type="module" src="./components/table-component/table-component.js"></script>
